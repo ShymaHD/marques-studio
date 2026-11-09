@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<script>document.documentElement.classList.add('js')</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{%- set tituloPagina = (seo_titulo or site.nome) | simples %}
+{%- set descPagina = (seo_descricao or site.descricao_seo) | simples %}
+<title>{{ tituloPagina }}</title>
+<meta name="description" content="{{ descPagina }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url | replace('index.html','') }}">
+<meta property="og:title" content="{{ tituloPagina }}">
+<meta property="og:description" content="{{ descPagina }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:image" content="{{ site.url }}{{ og_imagem or site.imagem_partilha }}">
+<meta name="theme-color" content="#F6F4EE">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="preload" href="/assets/fonts/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body class="pg-{{ pagina or 'interna' }}">
+<a class="skip" href="#conteudo">Saltar para o conteúdo</a>
+
+<header class="topo" id="topo">
+  <div class="wrap topo-row">
+    <a href="/" class="logo" aria-label="{{ site.nome }} — início">{{ site.logo_parte1 }}<span class="logo-dot">·</span>{{ site.logo_parte2 }}</a>
+    <nav class="menu" id="menu" aria-label="Principal">
+      {%- set links = [["/", "Início", "inicio"], ["/sobre.html", "Sobre", "sobre"], ["/servicos.html", "Serviços", "servicos"], ["/portfolio.html", "Portfolio", "portfolio"], ["/processo.html", "Processo", "processo"], ["/contacto.html", "Contacto", "contacto"]] %}
+      {%- for l in links %}
+      <a href="{{ l[0] }}"{% if pagina == l[2] %} aria-current="page"{% endif %}><span class="menu-n">{{ loop.index0 | pad }}</span>{{ l[1] }}</a>
+      {%- endfor %}
+    </nav>
+    <a href="/contacto.html" class="btn btn-sm topo-cta">{{ site.botao_orcamento }}</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="conteudo">
+{{ content | safe }}
+</main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <div class="rodape-top">
+      <div>
+        <a href="/" class="logo logo-lg">{{ site.logo_parte1 }}<span class="logo-dot">·</span>{{ site.logo_parte2 }}</a>
+        <p class="rodape-frase">{{ site.rodape_frase }}</p>
+      </div>
+      <div class="rodape-cols">
+        <div>
+          <div class="lab">Navegar</div>
+          {%- for l in links %}<a href="{{ l[0] }}">{{ l[1] }}</a>{% endfor %}
+        </div>
+        <div>
+          <div class="lab">Contacto</div>
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          <span>{{ site.localizacao }}</span>
+          {%- if site.instagram %}<a href="{{ site.instagram }}" target="_blank" rel="noopener">Instagram ↗</a>{% endif %}
+          {%- if site.linkedin %}<a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn ↗</a>{% endif %}
+          {%- if site.behance %}<a href="{{ site.behance }}" target="_blank" rel="noopener">Behance ↗</a>{% endif %}
+        </div>
+      </div>
+    </div>
+    <div class="rodape-base">
+      <span>© {{ anoAtual }} {{ site.nome }}</span>
+      <span class="cmyk-dots" aria-hidden="true"><i class="c"></i><i class="m"></i><i class="y"></i><i class="k"></i></span>
+      <a href="#topo">Voltar ao topo ↑</a>
+    </div>
+  </div>
+</footer>
+<script src="/assets/main.js" defer></script>
+</body>
+</html>

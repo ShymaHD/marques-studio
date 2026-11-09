@@ -1,0 +1,31 @@
+---
+layout: base.njk
+permalink: /contacto.html
+pagina: contacto
+eleventyComputed:
+  seo_titulo: "{{ contacto.seo_titulo }}"
+  seo_descricao: "{{ contacto.seo_descricao }}"
+---
+{%- set d = contacto %}{% set num = "05" %}
+{% include "cabecalho.njk" %}
+<section class="sec sec-sem-topo">
+  <div class="wrap contacto">
+    <form id="form-contacto" class="form" name="contacto" method="POST" action="/contacto.html?enviado=1" data-netlify="true" data-netlify-honeypot="bot-field"
+      data-ok="{{ d.msg_sucesso }}" data-erro="{{ d.msg_erro }}">
+      <input type="hidden" name="form-name" value="contacto">
+      <p class="hp"><label>Não preencher: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+      <div class="campo"><label for="f-nome">{{ d.campo_nome }}</label><input id="f-nome" type="text" name="nome" autocomplete="name" required></div>
+      <div class="campo"><label for="f-email">{{ d.campo_email }}</label><input id="f-email" type="email" name="email" autocomplete="email" required></div>
+      <div class="campo"><label for="f-msg">{{ d.campo_mensagem }}</label><textarea id="f-msg" name="mensagem" rows="5"></textarea></div>
+      <button type="submit" class="btn">{{ d.botao }} <span aria-hidden="true">→</span></button>
+      <p class="form-estado mono" role="status" hidden></p>
+    </form>
+    <aside class="contacto-info">
+      <div class="info"><div class="lab mono">Email</div><a href="mailto:{{ site.email }}" class="info-val">{{ site.email }}</a></div>
+      <div class="info"><div class="lab mono">Localização</div><div class="info-val">{{ site.localizacao }}</div></div>
+      <div class="info"><div class="lab mono">Resposta</div><div class="info-val">{{ site.tempo_resposta }}</div></div>
+      <div class="info"><div class="lab mono">Agenda</div><div class="info-val"><i class="pulse"></i> {{ site.disponibilidade }}</div></div>
+    </aside>
+  </div>
+</section>
+{% include "avaliacoes.njk" %}

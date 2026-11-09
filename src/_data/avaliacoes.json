@@ -1,0 +1,7 @@
+{
+  "lista": [
+    { "nome": "Sara Nogueira", "local": "Braga, Portugal", "data": "Jun 2026", "estrelas": 5, "texto": "Percebeu logo o que queríamos para a marca. Entregou tudo dentro do prazo e o resultado ficou muito acima do que esperávamos." },
+    { "nome": "Tiago Fonseca", "local": "Faro, Portugal", "data": "Maio 2026", "estrelas": 5, "texto": "Identidade visual nova, templates para redes sociais, tudo coerente. A comunicação durante o processo foi sempre clara e rápida." },
+    { "nome": "Inês Carvalho", "local": "Coimbra, Portugal", "data": "Abr 2026", "estrelas": 5, "texto": "Precisava de materiais gráficos para a loja e o resultado ficou profissional, sem perder o toque pessoal que queríamos passar." }
+  ]
+}

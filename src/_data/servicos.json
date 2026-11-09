@@ -1,0 +1,27 @@
+{
+  "seo_titulo": "Serviços — Marques Studio",
+  "seo_descricao": "Identidade e branding, design gráfico para print e digital, e conteúdo para redes sociais.",
+  "etiqueta": "Serviços",
+  "titulo": "Três frentes.\n*Uma linguagem visual coerente.*",
+  "subtitulo": "Cada serviço pode ser contratado isoladamente ou como pacote — para uma marca com identidade e presença consistentes do primeiro ao último ponto de contacto.",
+  "lista": [
+    {
+      "nome": "Identidade & Branding",
+      "resumo": "Logótipo, paleta, tipografia e manual de normas.",
+      "texto": "A base visual de que a tua marca precisa para ser reconhecida em qualquer contexto — do cartão de visita ao website.\n\nDesenvolvo o conceito a partir do posicionamento do negócio, não só da estética, para que a identidade final faça sentido para o público certo.",
+      "inclui": ["Pesquisa e definição de conceito", "Logótipo principal e variações (horizontal, vertical, símbolo)", "Paleta de cor e sistema tipográfico", "Manual de identidade em PDF", "Ficheiros finais em todos os formatos necessários"]
+    },
+    {
+      "nome": "Design Gráfico — Print & Digital",
+      "resumo": "Cartazes, brochuras, embalagens, materiais para loja ou digital.",
+      "texto": "Peças gráficas para produção física ou uso digital, sempre dentro do sistema visual da marca.\n\nInclui preparação técnica para impressão (sangria, cores CMYK, resolução) para que o resultado final saia como esperado.",
+      "inclui": ["Cartazes, flyers e brochuras", "Embalagens e rotulagem", "Apresentações e documentos de marca", "Preparação de ficheiros para gráfica"]
+    },
+    {
+      "nome": "Social Media & Conteúdo",
+      "resumo": "Templates e conteúdo visual para Instagram e Facebook.",
+      "texto": "Conteúdo visual pensado para parar o scroll e reforçar a identidade da marca a cada publicação.\n\nCrio templates reutilizáveis, para que possas publicar de forma consistente sem depender de mim em cada peça.",
+      "inclui": ["Templates de publicação (feed e stories)", "Kit de conteúdo mensal", "Capas de destaque e perfil", "Diretrizes de uso para a equipa"]
+    }
+  ]
+}

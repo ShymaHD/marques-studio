@@ -1,0 +1,14 @@
+<section class="cta">
+  <i class="crop tl"></i><i class="crop tr"></i><i class="crop bl"></i><i class="crop br"></i>
+  <div class="wrap cta-grid">
+    <div>
+      <div class="kicker mono kicker-inv"><span class="rule"></span>{{ site.disponibilidade }}</div>
+      <h2 class="cta-titulo">{{ site.cta_titulo | titulo | safe }}</h2>
+    </div>
+    <div class="cta-lado">
+      <p>{{ site.cta_texto }}</p>
+      <a href="/contacto.html" class="btn btn-inv">{{ site.cta_botao }} <span aria-hidden="true">→</span></a>
+      <a href="mailto:{{ site.email }}" class="cta-mail mono">{{ site.email }}</a>
+    </div>
+  </div>
+</section>

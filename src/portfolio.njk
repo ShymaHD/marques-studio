@@ -1,0 +1,28 @@
+---
+layout: base.njk
+permalink: /portfolio.html
+pagina: portfolio
+eleventyComputed:
+  seo_titulo: "{{ portfolio.seo_titulo }}"
+  seo_descricao: "{{ portfolio.seo_descricao }}"
+---
+{%- set d = portfolio %}{% set num = "03" %}
+{% include "cabecalho.njk" %}
+<section class="sec sec-sem-topo">
+  <div class="wrap">
+    {%- set cats = collections.trabalhos | categorias %}
+    {% if cats.length > 1 %}
+    <div class="filtros mono" role="group" aria-label="Filtrar por categoria">
+      <button class="ativo" data-filtro="*">Todos <sup>{{ collections.trabalhos.length }}</sup></button>
+      {%- for c in cats %}<button data-filtro="{{ c }}">{{ c }}</button>{% endfor %}
+    </div>
+    {% endif %}
+    <div class="obras obras-grelha">
+      {%- for p in collections.trabalhos %}{% set i = loop.index0 %}
+      <div class="obra-wrap" data-cat="{{ p.data.categoria }}">{% include "cartao-trabalho.njk" %}</div>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{% include "avaliacoes.njk" %}
+{% include "cta.njk" %}

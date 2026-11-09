@@ -1,0 +1,22 @@
+{% if avaliacoes.lista and avaliacoes.lista.length %}
+<section class="sec sec-avaliacoes">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker mono"><span class="rule"></span>{{ inicio.avaliacoes_etiqueta }}</div>
+      <h2 class="sec-titulo">{{ inicio.avaliacoes_titulo | titulo | safe }}</h2>
+    </div>
+    <div class="avals">
+      {%- for a in avaliacoes.lista %}
+      <figure class="aval" data-reveal>
+        <div class="aval-estrelas" aria-label="{{ a.estrelas or 5 }} de 5 estrelas">{% for s in range(0, a.estrelas or 5) %}★{% endfor %}</div>
+        <blockquote>“{{ a.texto }}”</blockquote>
+        <figcaption>
+          <span class="aval-nome">{{ a.nome }}</span>
+          <span class="aval-meta mono">{{ a.local }}{% if a.data %} · {{ a.data }}{% endif %}</span>
+        </figcaption>
+      </figure>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

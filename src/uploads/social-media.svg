@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900">
+  <!-- Generator: Adobe Illustrator 30.7.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 114)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: url(#linear-gradient2);
+        stroke-linecap: round;
+        stroke-width: 4px;
+      }
+
+      .st0, .st1, .st2 {
+        stroke-miterlimit: 4;
+      }
+
+      .st0, .st3, .st4, .st5, .st6, .st7, .st2, .st8, .st9 {
+        fill: none;
+      }
+
+      .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23, .st24, .st25, .st26, .st27, .st28, .st29, .st30, .st31, .st32, .st33, .st34, .st35, .st36, .st37, .st38, .st39, .st40, .st41, .st42, .st43 {
+        isolation: isolate;
+      }
+
+      .st10, .st11, .st44, .st15, .st38, .st42, .st43 {
+        fill: #fff;
+      }
+
+      .st10, .st11, .st14, .st15, .st17, .st18, .st21, .st23, .st30, .st31, .st34, .st38, .st40, .st42, .st43 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st10, .st18 {
+        font-size: 34px;
+      }
+
+      .st11 {
+        font-size: 56px;
+      }
+
+      .st12, .st13, .st26, .st27, .st35, .st36, .st39, .st41 {
+        font-size: 12px;
+      }
+
+      .st12, .st16, .st20, .st22, .st24, .st25, .st26, .st27, .st28, .st29, .st32, .st35, .st36, .st37, .st39, .st41 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st12, .st18, .st30, .st40 {
+        fill: #06202a;
+      }
+
+      .st45, .st14, .st19, .st23, .st35 {
+        fill: #3be7c0;
+      }
+
+      .st1 {
+        fill: #080d18;
+        stroke-width: 3px;
+      }
+
+      .st1, .st46 {
+        stroke: #28374f;
+      }
+
+      .st3 {
+        stroke: #06202a;
+        stroke-miterlimit: 4;
+        stroke-width: 2px;
+      }
+
+      .st4, .st6 {
+        stroke-width: 7px;
+      }
+
+      .st4, .st8 {
+        stroke: #1fa8e0;
+      }
+
+      .st5, .st2 {
+        stroke: #1e2b44;
+      }
+
+      .st46 {
+        fill: #0a1220;
+        stroke-miterlimit: 4;
+        stroke-width: 2px;
+      }
+
+      .st13, .st19, .st33 {
+        font-family: CourierNewPSMT, 'Courier New';
+      }
+
+      .st13, .st39 {
+        fill: #7a8698;
+      }
+
+      .st13, .st41 {
+        letter-spacing: .17em;
+      }
+
+      .st47 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st14, .st31 {
+        font-size: 22px;
+      }
+
+      .st15, .st17, .st32, .st40, .st42 {
+        font-size: 15px;
+      }
+
+      .st16, .st20, .st28, .st29, .st32, .st33, .st41 {
+        fill: #5c7392;
+      }
+
+      .st16, .st24, .st28 {
+        font-size: 11px;
+      }
+
+      .st6, .st9 {
+        stroke: #3be7c0;
+      }
+
+      .st17, .st21, .st48, .st34 {
+        fill: #0b1120;
+      }
+
+      .st49 {
+        fill: url(#radial-gradient);
+      }
+
+      .st7 {
+        stroke: #e4e8ef;
+        stroke-miterlimit: 4;
+        stroke-width: 1px;
+      }
+
+      .st50, .st31 {
+        fill: #1fa8e0;
+      }
+
+      .st19, .st20, .st25, .st33 {
+        font-size: 13px;
+      }
+
+      .st19, .st33 {
+        letter-spacing: .15em;
+      }
+
+      .st2 {
+        stroke-width: 1px;
+      }
+
+      .st20 {
+        letter-spacing: .54em;
+      }
+
+      .st8, .st9 {
+        stroke-width: 3px;
+      }
+
+      .st51 {
+        fill: #1e2b44;
+      }
+
+      .st21 {
+        font-size: 66px;
+      }
+
+      .st22, .st25 {
+        fill: #5a6778;
+      }
+
+      .st22, .st29, .st37 {
+        font-size: 10px;
+      }
+
+      .st23, .st43 {
+        font-size: 30px;
+      }
+
+      .st24, .st27, .st37 {
+        fill: #8fa2be;
+      }
+
+      .st26 {
+        fill: #e4eaf4;
+      }
+
+      .st52 {
+        fill: url(#linear-gradient4);
+      }
+
+      .st28 {
+        letter-spacing: .27em;
+      }
+
+      .st29 {
+        letter-spacing: .3em;
+      }
+
+      .st53 {
+        fill: url(#linear-gradient5);
+      }
+
+      .st54 {
+        fill: #28374f;
+      }
+
+      .st55 {
+        fill: url(#linear-gradient3);
+      }
+
+      .st30 {
+        font-size: 14px;
+      }
+
+      .st32 {
+        letter-spacing: .27em;
+      }
+
+      .st34 {
+        font-size: 21px;
+      }
+
+      .st36 {
+        fill: #ff6b6b;
+      }
+
+      .st38 {
+        font-size: 38px;
+      }
+
+      .st56 {
+        fill: url(#linear-gradient);
+      }
+
+      .st57 {
+        fill: #0e1728;
+      }
+
+      .st39 {
+        letter-spacing: .33em;
+      }
+
+      .st42 {
+        letter-spacing: -.03em;
+      }
+
+      .st58 {
+        fill: #16223a;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-358.7" y1="990.9" x2="-357.7" y2="989.9" gradientTransform="translate(430441 891811) scale(1200 -900)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111c31"/>
+      <stop offset="1" stop-color="#05080f"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="-357.92" cy="990.75" fx="-357.92" fy="990.75" r=".75" gradientTransform="translate(430441 891811) scale(1200 -900)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1fa8e0" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#1fa8e0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient1" x1="-356.32" y1="966.37" x2="-355.32" y2="965.37" gradientTransform="translate(45813.6965 4178.1068) rotate(-.0978) scale(128 -4)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3be7c0"/>
+      <stop offset="1" stop-color="#1fa8e0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient2" x1="-357.26" y1="989.87" x2="-356.26" y2="988.87" gradientTransform="translate(68945.2767 95316.7628) rotate(-.0978) scale(192 -96)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3be7c0"/>
+      <stop offset="1" stop-color="#1fa8e0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient3" x1="-357.23" y1="989.13" x2="-356.23" y2="988.13" gradientTransform="translate(69579.2243 46067.6081) rotate(-.0978) scale(194 -46)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3be7c0"/>
+      <stop offset="1" stop-color="#1fa8e0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient4" x1="-357.55" y1="990.53" x2="-356.55" y2="989.53" gradientTransform="translate(90287.1476 247832.6112) scale(250.0005 -250.0005)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3be7c0"/>
+      <stop offset="1" stop-color="#1fa8e0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient5" x1="-356.66" y1="990.5" x2="-355.66" y2="989.5" gradientTransform="translate(60907.6872 42262.6072) rotate(-.0673) scale(168 -42)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3be7c0"/>
+      <stop offset="1" stop-color="#1fa8e0"/>
+    </linearGradient>
+  </defs>
+  <rect class="st56" width="1200" height="900"/>
+  <rect class="st49" width="1200" height="900"/>
+  <text class="st20" transform="translate(70 62)"><tspan x="0" y="0">SOCIAL MEDIA · MARQUES STUDIO 2026</tspan></text>
+  <g>
+    <circle class="st6" cx="104" cy="112" r="30"/>
+    <circle class="st4" cx="118" cy="112" r="16"/>
+    <circle class="st44" cx="132.56" cy="112" r="5"/>
+  </g>
+  <text class="st11" transform="translate(164 132)"><tspan x="0" y="0">VERTIGO</tspan></text>
+  <text class="st32" transform="translate(847.56 62.72)"><tspan x="0" y="0">CAMPANHA DE LANÇAMENTO</tspan></text>
+  <g>
+    <rect class="st1" x="162.31" y="199.86" width="266" height="580" rx="38" ry="38" transform="translate(-.84 .5)"/>
+    <rect class="st57" x="176.31" y="213.86" width="238" height="552" rx="28" ry="28" transform="translate(-.84 .5)"/>
+    <path class="st54" d="M264.86,225.91l60-.1c2.76,0,5,2.01,5.01,4.49h0c0,2.49-2.23,4.5-4.99,4.51l-60,.1c-2.76,0-5-2.01-5.01-4.49h0c0-2.49,2.23-4.5,4.99-4.51Z"/>
+    <text class="st16" transform="translate(212.57 233.31)"><tspan x="0" y="0">9:41</tspan></text>
+    <text class="st16" transform="translate(345.47 233.31)"><tspan x="0" y="0">5G · 87%</tspan></text>
+    <text class="st42" transform="translate(233.99 294.98)"><tspan x="0" y="0">VERTIGO</tspan></text>
+    <text class="st28" transform="translate(198.04 326.04)"><tspan x="0" y="0">SALDO DISPONÍVEL</tspan></text>
+    <text class="st38" transform="translate(198.11 364.04)"><tspan x="0" y="0">4.281,60 €</tspan></text>
+    <text class="st35" transform="translate(198.14 384.04)"><tspan x="0" y="0">+312,40 € este mês</tspan></text>
+    <path class="st51" d="M200.12,390.47l190-.32c1.1,0,2,.89,2,2h0c0,1.1-.89,2-2,2l-190,.32c-1.1,0-2-.89-2-2h0c0-1.1.89-2,2-2Z"/>
+    <path class="st47" d="M200.12,390.47l124-.21c1.1,0,2,.89,2,2h0c0,1.1-.89,2-2,2l-124,.21c-1.1,0-2-.89-2-2h0c0-1.1.89-2,2-2Z"/>
+    <path class="st0" d="M198.29,498.13l31.94-34.05,30.03,17.95,31.91-52.05,34.03,17.94,29.92-46.05,34.03,15.94"/>
+    <circle class="st45" cx="390.16" cy="417.81" r="6"/>
+    <g>
+      <text class="st41" transform="translate(198.37 520.04)"><tspan x="0" y="0">MOVIMENTOS</tspan></text>
+      <text class="st26" transform="translate(198.43 552.04)"><tspan x="0" y="0">Renda · casa</tspan></text>
+      <text class="st36" transform="translate(348.72 551.78)"><tspan x="0" y="0">−680,00</tspan></text>
+      <text class="st26" transform="translate(198.47 580.04)"><tspan x="0" y="0">Mercearia Jorge</tspan></text>
+      <text class="st36" transform="translate(355.44 579.77)"><tspan x="0" y="0">−43,12</tspan></text>
+      <text class="st26" transform="translate(198.52 608.04)"><tspan x="0" y="0">Salário · Nortada</tspan></text>
+      <text class="st35" transform="translate(338.8 607.8)"><tspan x="0" y="0">+1.940,00</tspan></text>
+      <text class="st26" transform="translate(198.57 636.04)"><tspan x="0" y="0">Cofre Viagem</tspan></text>
+      <text class="st27" transform="translate(348.86 635.78)"><tspan x="0" y="0">−150,00</tspan></text>
+      <text class="st26" transform="translate(198.62 664.04)"><tspan x="0" y="0">Metro Lisboa</tspan></text>
+      <text class="st36" transform="translate(362.25 663.76)"><tspan x="0" y="0">−1,80</tspan></text>
+    </g>
+    <path class="st55" d="M221.64,685.99l148-.25c12.7-.02,23.02,10.26,23.04,22.96h0c.02,12.7-10.26,23.02-22.96,23.04l-148,.25c-12.7.02-23.02-10.26-23.04-22.96h0c-.02-12.7,10.26-23.02,22.96-23.04Z"/>
+    <text class="st40" transform="translate(243.62 714.96)"><tspan x="0" y="0">CRIAR COFRE</tspan></text>
+    <line class="st2" x1="198.75" y1="750.03" x2="392.75" y2="749.7"/>
+    <g>
+      <circle class="st9" cx="209.62" cy="287.54" r="15"/>
+      <circle class="st8" cx="216.62" cy="287.54" r="8"/>
+      <circle class="st44" cx="223.63" cy="287.52" r="2.5"/>
+    </g>
+  </g>
+  <g>
+    <rect class="st44" x="507.71" y="199.44" width="340" height="340" rx="10" ry="10" transform="translate(306.9143 1046.4139) rotate(-89.8859)"/>
+    <text class="st39" transform="translate(539.94 259.19)"><tspan x="0" y="0">01 · PROVA SOCIAL</tspan></text>
+    <text class="st21" transform="translate(539.79 335.19)"><tspan x="0" y="0">+37%</tspan></text>
+    <text class="st34" transform="translate(539.72 369.19)"><tspan x="0" y="0">poupado em 3 meses</tspan></text>
+    <rect class="st50" x="592.17" y="334.78" width="5" height="110" transform="translate(203.7 983.67) rotate(-89.89)"/>
+    <g>
+      <text class="st25" transform="translate(539.62 421.19)"><tspan x="0" y="0">Média de 12.400 utilizadores ativos</tspan></text>
+      <text class="st25" transform="translate(539.57 443.19)"><tspan x="0" y="0">com cofres automáticos ligados.</tspan></text>
+    </g>
+    <line class="st7" x1="539.52" y1="465.17" x2="815.52" y2="465.72"/>
+    <text class="st13" transform="translate(539.47 493.19)"><tspan x="0" y="0">@VERTIGO.APP</tspan></text>
+    <g>
+      <circle class="st48" cx="787.93" cy="257.66" r="5"/>
+      <circle class="st48" cx="803.93" cy="257.7" r="5"/>
+      <circle class="st48" cx="819.93" cy="257.73" r="5"/>
+    </g>
+  </g>
+  <g>
+    <rect class="st52" x="898.25" y="199.26" width="250" height="250" rx="10" ry="10" transform="translate(-.37 1.16)"/>
+    <text class="st18" transform="translate(924.18 261.37)"><tspan x="0" y="0">Sem</tspan></text>
+    <text class="st18" transform="translate(924.23 301.37)"><tspan x="0" y="0">comissões.</tspan></text>
+    <text class="st10" transform="translate(924.27 341.37)"><tspan x="0" y="0">Nenhuma.</tspan></text>
+    <line class="st3" x1="924.29" y1="361.37" x2="1122.29" y2="361.14"/>
+    <g>
+      <text class="st12" transform="translate(924.32 385.37)"><tspan x="0" y="0">0€ de manutenção · 0€ transferências</tspan></text>
+      <text class="st12" transform="translate(924.35 405.37)"><tspan x="0" y="0">0€ cartão virtual · 0€ câmbio até 2.000€</tspan></text>
+    </g>
+  </g>
+  <g>
+    <rect class="st46" x="854.41" y="535.82" width="340" height="200" rx="14" ry="14" transform="translate(389.795 1660.9764) rotate(-90.0673)"/>
+    <path class="st45" d="M943.24,485.91l46-.05c1.66,0,3,1.12,3,2.5h0c0,1.38-1.34,2.5-3,2.5l-46,.05c-1.66,0-3-1.12-3-2.5h0c0-1.38,1.34-2.5,3-2.5Z"/>
+    <path class="st51" d="M1001.24,485.85l46-.05c1.66,0,3,1.12,3,2.5h0c0,1.38-1.34,2.5-3,2.5l-46,.05c-1.66,0-3-1.12-3-2.5h0c0-1.38,1.34-2.5,3-2.5Z"/>
+    <path class="st51" d="M1059.24,485.78l46-.05c1.66,0,3,1.12,3,2.5h0c0,1.38-1.34,2.5-3,2.5l-46,.05c-1.66,0-3-1.12-3-2.5h0c0-1.38,1.34-2.5,3-2.5Z"/>
+    <text class="st29" transform="translate(976.28 521.88)"><tspan x="0" y="0">VERTIGO · AGORA</tspan></text>
+    <text class="st43" transform="translate(940.34 571.92)"><tspan x="0" y="0">Abre conta</tspan></text>
+    <text class="st23" transform="translate(940.38 603.92)"><tspan x="0" y="0">em 4 min.</tspan></text>
+    <g>
+      <text class="st24" transform="translate(940.42 635.92)"><tspan x="0" y="0">1 · Cartão de cidadão</tspan></text>
+      <text class="st24" transform="translate(940.44 655.92)"><tspan x="0" y="0">2 · Selfie de verificação</tspan></text>
+      <text class="st24" transform="translate(940.46 675.92)"><tspan x="0" y="0">3 · IBAN pronto a usar</tspan></text>
+    </g>
+    <rect class="st51" x="1023.98" y="612.32" width="1" height="168" transform="translate(329.3662 1721.6184) rotate(-90.0673)"/>
+    <path class="st53" d="M961.52,731.89l126-.15c11.6-.01,21.01,9.38,21.02,20.98h0c.01,11.6-9.38,21.01-20.98,21.02l-126,.15c-11.6.01-21.01-9.38-21.02-20.98h0c-.01-11.6,9.38-21.01,20.98-21.02Z"/>
+    <text class="st30" transform="translate(954.04 758.91)"><tspan x="0" y="0">DESLIZA PARA CIMA</tspan></text>
+    <g>
+      <circle class="st9" cx="951.95" cy="517.65" r="14.04"/>
+      <circle class="st8" cx="958.5" cy="517.65" r="7.49"/>
+      <circle class="st44" cx="965.31" cy="517.65" r="2.34"/>
+    </g>
+  </g>
+  <g>
+    <rect class="st58" x="507.52" y="579.92" width="160" height="160" rx="8" ry="8" transform="translate(-72.0639 1247.8123) rotate(-90.0329)"/>
+    <text class="st14" transform="translate(531.5 621.95)"><tspan x="0" y="0">02</tspan></text>
+    <text class="st15" transform="translate(531.51 649.95)"><tspan x="0" y="0">Cofres</tspan></text>
+    <g>
+      <text class="st37" transform="translate(531.52 671.95)"><tspan x="0" y="0">Regras automáticas</tspan></text>
+      <text class="st37" transform="translate(531.53 689.95)"><tspan x="0" y="0">Arredonda cada compra</tspan></text>
+      <text class="st37" transform="translate(531.54 707.95)"><tspan x="0" y="0">Juros 2,1% AER</tspan></text>
+    </g>
+    <rect class="st44" x="687.52" y="579.81" width="160" height="160" rx="8" ry="8" transform="translate(108.1429 1427.7088) rotate(-90.0329)"/>
+    <text class="st31" transform="translate(711.5 621.85)"><tspan x="0" y="0">03</tspan></text>
+    <text class="st17" transform="translate(711.51 649.85)"><tspan x="0" y="0">Partilhado</tspan></text>
+    <g>
+      <text class="st22" transform="translate(711.52 671.85)"><tspan x="0" y="0">Contas a dois</tspan></text>
+      <text class="st22" transform="translate(711.53 689.85)"><tspan x="0" y="0">Divide despesas</tspan></text>
+      <text class="st22" transform="translate(711.54 707.85)"><tspan x="0" y="0">Sem cartão extra</tspan></text>
+    </g>
+  </g>
+  <line class="st5" x1="70" y1="808" x2="470" y2="808"/>
+  <g>
+    <text class="st33" transform="translate(70 836)"><tspan x="0" y="0">12 POSTS · 6 STORIES · 3 CARROSSÉIS · 2 ECRÃS</tspan></text>
+    <text class="st19" transform="translate(70 860)"><tspan x="0" y="0">#3BE7C0 / #1FA8E0 / #0B1120 / #FFFFFF</tspan></text>
+  </g>
+</svg>

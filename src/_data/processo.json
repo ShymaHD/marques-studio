@@ -1,0 +1,13 @@
+{
+  "seo_titulo": "Processo — Marques Studio",
+  "seo_descricao": "Do briefing à entrega final: um processo claro, para que saibas sempre em que fase está o teu projeto.",
+  "etiqueta": "Processo",
+  "titulo": "Do briefing\nà *entrega final.*",
+  "subtitulo": "Um processo claro, para que saibas sempre em que fase está o teu projeto.",
+  "passos": [
+    { "nome": "Briefing", "texto": "Conversa inicial sobre o negócio, o público e o que a marca precisa comunicar." },
+    { "nome": "Conceito", "texto": "Exploração de direções visuais — cor, tipografia, estilo — até fecharmos o caminho certo." },
+    { "nome": "Produção", "texto": "Desenvolvimento de todas as peças, com atenção ao detalhe e preparação técnica correta." },
+    { "nome": "Entrega", "texto": "Ficheiros finais organizados, prontos para imprimir ou publicar, com manual de utilização se aplicável." }
+  ]
+}

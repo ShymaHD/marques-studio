@@ -1,0 +1,15 @@
+{# Cartão de projeto. Espera: p (item da coleção), i (índice) #}
+{%- set tag = "a" if p.data.temPagina else "div" %}
+<{{ tag }} class="obra{% if p.data.temPagina %} obra-link{% endif %}" {% if p.data.temPagina %}href="{{ p.url }}"{% endif %} data-reveal>
+  <div class="obra-img">
+    <i class="crop tl"></i><i class="crop tr"></i><i class="crop bl"></i><i class="crop br"></i>
+    <img src="{{ p.data.capa }}" alt="{{ p.data.titulo }} — {{ p.data.categoria }}" loading="lazy" width="1200" height="900">
+  </div>
+  <div class="obra-info">
+    <span class="obra-fig mono">FIG. {{ (i + 1) | pad }}</span>
+    <h3 class="obra-titulo">{{ p.data.titulo }}{% if p.data.setor %} <span class="obra-setor">— {{ p.data.setor }}</span>{% endif %}</h3>
+    <span class="obra-cat mono">{{ p.data.categoria }}{% if p.data.ano %} · {{ p.data.ano }}{% endif %}</span>
+    {% if p.data.temPagina %}<span class="obra-seta" aria-hidden="true">→</span>{% endif %}
+  </div>
+  {% if p.data.resumo %}<p class="obra-resumo">{{ p.data.resumo }}</p>{% endif %}
+</{{ tag }}>

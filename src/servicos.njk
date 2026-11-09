@@ -1,0 +1,36 @@
+---
+layout: base.njk
+permalink: /servicos.html
+pagina: servicos
+eleventyComputed:
+  seo_titulo: "{{ servicos.seo_titulo }}"
+  seo_descricao: "{{ servicos.seo_descricao }}"
+---
+{%- set d = servicos %}{% set num = "02" %}
+{% include "cabecalho.njk" %}
+<section class="sec sec-sem-topo">
+  <div class="wrap">
+    <nav class="indice mono" aria-label="Serviços">
+      {%- for s in d.lista %}<a href="#servico-{{ loop.index }}"><span>{{ loop.index | pad }}</span>{{ s.nome }}</a>{% endfor %}
+    </nav>
+    {%- for s in d.lista %}
+    <article class="servico" id="servico-{{ loop.index }}">
+      <div class="servico-num mono">FIG. {{ loop.index | pad }}</div>
+      <div class="servico-corpo">
+        <h2 class="servico-nome" data-reveal>{{ s.nome }}</h2>
+        <p class="servico-resumo">{{ s.resumo }}</p>
+        <div class="servico-grid">
+          <div class="prosa">{{ s.texto | md | safe }}</div>
+          {% if s.inclui.length %}
+          <div>
+            <div class="lab mono">Inclui</div>
+            <ul class="lista-check">{% for x in s.inclui %}<li>{{ x }}</li>{% endfor %}</ul>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+{% include "cta.njk" %}

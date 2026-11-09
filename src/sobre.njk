@@ -1,0 +1,26 @@
+---
+layout: base.njk
+permalink: /sobre.html
+pagina: sobre
+eleventyComputed:
+  seo_titulo: "{{ sobre.seo_titulo }}"
+  seo_descricao: "{{ sobre.seo_descricao }}"
+---
+{%- set d = sobre %}{% set num = "01" %}
+{% include "cabecalho.njk" %}
+<section class="sec">
+  <div class="wrap sobre">
+    <figure class="sobre-foto" data-reveal>
+      <i class="crop tl"></i><i class="crop tr"></i><i class="crop bl"></i><i class="crop br"></i>
+      <img src="{{ d.foto }}" alt="{{ d.foto_legenda }}">
+      <figcaption class="mono">{{ d.foto_legenda }}</figcaption>
+    </figure>
+    <div class="sobre-txt">
+      <div class="prosa prosa-lg" data-reveal>{{ d.texto | md | safe }}</div>
+      {% if d.competencias.length %}
+      <ul class="selos">{% for c in d.competencias %}<li class="mono">{{ c }}</li>{% endfor %}</ul>
+      {% endif %}
+    </div>
+  </div>
+</section>
+{% include "cta.njk" %}

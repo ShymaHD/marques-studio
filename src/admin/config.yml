@@ -1,0 +1,249 @@
+# ==========================================================
+#  Painel de edição do Marques Studio  →  marquesstudio.pt/admin
+#  Só quem tem acesso de escrita ao repositório GitHub consegue entrar.
+# ==========================================================
+
+backend:
+  name: github
+  # ⚠️ ÚNICA LINHA A ALTERAR: o teu utilizador GitHub / nome do repositório
+  repo: O-TEU-UTILIZADOR/marques-studio
+  branch: main
+  commit_messages:
+    create: "Criar {{collection}} “{{slug}}”"
+    update: "Atualizar {{collection}} “{{slug}}”"
+    delete: "Apagar {{collection}} “{{slug}}”"
+    uploadMedia: "Carregar imagem “{{path}}”"
+    deleteMedia: "Apagar imagem “{{path}}”"
+
+site_url: https://marquesstudio.pt
+display_url: https://marquesstudio.pt
+logo:
+  src: /favicon.png
+
+media_folder: src/uploads
+public_folder: /uploads
+
+# As fotos carregadas são otimizadas automaticamente (WebP, máx. 2000 px)
+media_libraries:
+  default:
+    config:
+      max_file_size: 15000000
+      transformations:
+        raster_image:
+          format: webp
+          quality: 84
+          width: 2000
+          height: 2000
+
+editor:
+  preview: false
+
+collections:
+
+  # ---------------------------------------------------------- PROJETOS
+  - name: projetos
+    label: Portfolio — Projetos
+    label_singular: Projeto
+    description: "Cada projeto aparece no Portfolio (e na página inicial, se estiver em destaque). Um projeto ganha página própria assim que tiver descrição ou galeria."
+    folder: src/projetos
+    extension: md
+    format: frontmatter
+    create: true
+    delete: true
+    identifier_field: titulo
+    slug: "{{fields.titulo}}"
+    summary: "{{ordem}}. {{titulo}} — {{categoria}}"
+    sortable_fields: { fields: [ordem, titulo, ano], default: { field: ordem, direction: ascending } }
+    fields:
+      - { name: titulo, label: Nome do projeto, widget: string }
+      - { name: categoria, label: Categoria, widget: string, hint: "Ex.: Identidade Visual, Branding, Print & Embalagem, Social Media. Também é usada nos filtros do Portfolio." }
+      - { name: setor, label: Setor / cliente, widget: string, required: false, hint: "Ex.: Ótica, Festival, Restauração" }
+      - { name: ano, label: Ano, widget: string, required: false }
+      - { name: capa, label: Imagem de capa, widget: image, hint: "Proporção ideal 4:3 (ex.: 1600×1200 px)." }
+      - { name: resumo, label: Frase curta (opcional), widget: text, required: false, hint: "Aparece por baixo do cartão do projeto." }
+      - { name: destaque, label: Mostrar na página inicial, widget: boolean, default: true }
+      - { name: ordem, label: Ordem, widget: number, value_type: int, default: 10, hint: "Número mais baixo aparece primeiro." }
+      - name: descricao
+        label: Descrição do projeto (opcional)
+        widget: markdown
+        required: false
+        buttons: [bold, italic, link, bulleted-list, numbered-list, heading-three]
+        editor_components: []
+        hint: "Conta o desafio, a solução e o resultado. Ao preencher, o projeto passa a ter página própria."
+      - name: galeria
+        label: Galeria de imagens (opcional)
+        label_singular: Imagem
+        widget: list
+        required: false
+        collapsed: true
+        summary: "{{legenda}}"
+        fields:
+          - { name: imagem, label: Imagem, widget: image }
+          - { name: legenda, label: Legenda, widget: string, required: false }
+
+  # ---------------------------------------------------------- PÁGINAS
+  - name: paginas
+    label: Páginas
+    description: "Textos e imagens de cada página do site."
+    editor: { preview: false }
+    files:
+
+      - name: inicio
+        label: Início
+        file: src/_data/inicio.json
+        format: json
+        fields:
+          - { name: seo_titulo, label: "Título no Google / separador", widget: string }
+          - { name: etiqueta, label: Etiqueta no topo, widget: string }
+          - { name: titulo, label: Título principal, widget: text, hint: "Usa *asteriscos* à volta das palavras que queres em destaque (itálico azul). Muda de linha com Enter." }
+          - { name: subtitulo, label: Texto de apresentação, widget: text }
+          - { name: botao_principal, label: Botão principal, widget: string }
+          - { name: botao_secundario, label: Botão secundário, widget: string }
+          - { name: faixa, label: Faixa em movimento (palavras), widget: list, field: { name: palavra, label: Palavra, widget: string } }
+          - { name: trabalhos_etiqueta, label: "Trabalhos — etiqueta", widget: string }
+          - { name: trabalhos_titulo, label: "Trabalhos — título", widget: string }
+          - { name: estudio_etiqueta, label: "Estúdio — etiqueta", widget: string }
+          - { name: estudio_titulo, label: "Estúdio — título", widget: text, hint: "*asteriscos* = destaque" }
+          - { name: estudio_texto, label: "Estúdio — texto", widget: text }
+          - { name: estudio_foto, label: "Estúdio — foto", widget: image }
+          - { name: estudio_link, label: "Estúdio — texto do link", widget: string }
+          - { name: servicos_etiqueta, label: "Serviços — etiqueta", widget: string }
+          - { name: servicos_titulo, label: "Serviços — título", widget: string }
+          - { name: processo_etiqueta, label: "Processo — etiqueta", widget: string }
+          - { name: processo_titulo, label: "Processo — título", widget: string }
+          - { name: avaliacoes_etiqueta, label: "Avaliações — etiqueta", widget: string }
+          - { name: avaliacoes_titulo, label: "Avaliações — título", widget: string }
+
+      - name: sobre
+        label: Sobre
+        file: src/_data/sobre.json
+        format: json
+        fields:
+          - { name: seo_titulo, label: "Título no Google / separador", widget: string }
+          - { name: seo_descricao, label: Descrição no Google, widget: text }
+          - { name: etiqueta, label: Etiqueta, widget: string }
+          - { name: titulo, label: Título, widget: text, hint: "*asteriscos* = destaque · Enter = nova linha" }
+          - { name: subtitulo, label: Subtítulo, widget: text }
+          - { name: foto, label: Foto, widget: image }
+          - { name: foto_legenda, label: Legenda da foto, widget: string }
+          - { name: texto, label: Texto, widget: markdown, buttons: [bold, italic, link, bulleted-list], editor_components: [] }
+          - { name: competencias, label: Etiquetas de competências, widget: list, field: { name: item, label: Competência, widget: string } }
+
+      - name: servicos
+        label: Serviços
+        file: src/_data/servicos.json
+        format: json
+        fields:
+          - { name: seo_titulo, label: "Título no Google / separador", widget: string }
+          - { name: seo_descricao, label: Descrição no Google, widget: text }
+          - { name: etiqueta, label: Etiqueta, widget: string }
+          - { name: titulo, label: Título, widget: text, hint: "*asteriscos* = destaque · Enter = nova linha" }
+          - { name: subtitulo, label: Subtítulo, widget: text }
+          - name: lista
+            label: Serviços
+            label_singular: Serviço
+            widget: list
+            summary: "{{nome}}"
+            fields:
+              - { name: nome, label: Nome, widget: string }
+              - { name: resumo, label: Resumo (uma frase), widget: string }
+              - { name: texto, label: Descrição, widget: markdown, buttons: [bold, italic, link], editor_components: [] }
+              - { name: inclui, label: O que inclui, widget: list, field: { name: item, label: Item, widget: string } }
+
+      - name: portfolio
+        label: Portfolio (cabeçalho)
+        file: src/_data/portfolio.json
+        format: json
+        fields:
+          - { name: seo_titulo, label: "Título no Google / separador", widget: string }
+          - { name: seo_descricao, label: Descrição no Google, widget: text }
+          - { name: etiqueta, label: Etiqueta, widget: string }
+          - { name: titulo, label: Título, widget: text, hint: "*asteriscos* = destaque · Enter = nova linha" }
+          - { name: subtitulo, label: Subtítulo, widget: text }
+
+      - name: processo
+        label: Processo
+        file: src/_data/processo.json
+        format: json
+        fields:
+          - { name: seo_titulo, label: "Título no Google / separador", widget: string }
+          - { name: seo_descricao, label: Descrição no Google, widget: text }
+          - { name: etiqueta, label: Etiqueta, widget: string }
+          - { name: titulo, label: Título, widget: text, hint: "*asteriscos* = destaque · Enter = nova linha" }
+          - { name: subtitulo, label: Subtítulo, widget: text }
+          - name: passos
+            label: Passos
+            label_singular: Passo
+            widget: list
+            summary: "{{nome}}"
+            fields:
+              - { name: nome, label: Nome, widget: string }
+              - { name: texto, label: Descrição, widget: text }
+
+      - name: contacto
+        label: Contacto
+        file: src/_data/contacto.json
+        format: json
+        fields:
+          - { name: seo_titulo, label: "Título no Google / separador", widget: string }
+          - { name: seo_descricao, label: Descrição no Google, widget: text }
+          - { name: etiqueta, label: Etiqueta, widget: string }
+          - { name: titulo, label: Título, widget: text, hint: "*asteriscos* = destaque · Enter = nova linha" }
+          - { name: subtitulo, label: Subtítulo, widget: text }
+          - { name: campo_nome, label: "Formulário — campo Nome", widget: string }
+          - { name: campo_email, label: "Formulário — campo Email", widget: string }
+          - { name: campo_mensagem, label: "Formulário — campo Mensagem", widget: string }
+          - { name: botao, label: "Formulário — botão", widget: string }
+          - { name: msg_sucesso, label: Mensagem de sucesso, widget: string }
+          - { name: msg_erro, label: Mensagem de erro, widget: string }
+
+  # ---------------------------------------------------------- AVALIAÇÕES
+  - name: avaliacoes
+    label: Avaliações de clientes
+    editor: { preview: false }
+    files:
+      - name: avaliacoes
+        label: Avaliações
+        file: src/_data/avaliacoes.json
+        format: json
+        fields:
+          - name: lista
+            label: Avaliações
+            label_singular: Avaliação
+            widget: list
+            summary: "{{nome}} — {{local}}"
+            fields:
+              - { name: nome, label: Nome do cliente, widget: string }
+              - { name: local, label: Localidade, widget: string, required: false }
+              - { name: data, label: Data, widget: string, required: false, hint: "Ex.: Jun 2026" }
+              - { name: estrelas, label: Estrelas, widget: number, value_type: int, min: 1, max: 5, default: 5 }
+              - { name: texto, label: Comentário, widget: text }
+
+  # ---------------------------------------------------------- GERAL
+  - name: geral
+    label: Definições gerais
+    editor: { preview: false }
+    files:
+      - name: site
+        label: Contactos, rodapé e chamada final
+        file: src/_data/site.json
+        format: json
+        fields:
+          - { name: nome, label: Nome do estúdio, widget: string }
+          - { name: logo_parte1, label: "Logótipo — 1.ª palavra", widget: string }
+          - { name: logo_parte2, label: "Logótipo — 2.ª palavra", widget: string }
+          - { name: url, label: Endereço do site, widget: string }
+          - { name: descricao_seo, label: Descrição geral no Google, widget: text }
+          - { name: imagem_partilha, label: Imagem ao partilhar o link (redes sociais / WhatsApp), widget: image }
+          - { name: email, label: Email, widget: string }
+          - { name: localizacao, label: Localização, widget: string }
+          - { name: tempo_resposta, label: Tempo de resposta, widget: string }
+          - { name: disponibilidade, label: Disponibilidade, widget: string, hint: "Ex.: Aberto a novos projetos · Agenda cheia até janeiro" }
+          - { name: botao_orcamento, label: Botão do menu, widget: string }
+          - { name: instagram, label: Instagram (link), widget: string, required: false }
+          - { name: linkedin, label: LinkedIn (link), widget: string, required: false }
+          - { name: behance, label: Behance (link), widget: string, required: false }
+          - { name: rodape_frase, label: Frase do rodapé, widget: text }
+          - { name: cta_titulo, label: "Chamada final — título", widget: string, hint: "*asteriscos* = destaque" }
+          - { name: cta_texto, label: "Chamada final — texto", widget: text }
+          - { name: cta_botao, label: "Chamada final — botão", widget: string }

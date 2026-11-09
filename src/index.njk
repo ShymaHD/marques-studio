@@ -1,0 +1,110 @@
+---
+layout: base.njk
+permalink: /
+pagina: inicio
+eleventyComputed:
+  seo_titulo: "{{ inicio.seo_titulo }}"
+---
+{%- set d = inicio %}
+<section class="hero">
+  <i class="crop tl"></i><i class="crop tr"></i><i class="crop bl"></i><i class="crop br"></i>
+  <div class="wrap">
+    <div class="hero-top mono">
+      <span class="dot"></span>{{ d.etiqueta }}
+      <span class="hero-disp"><i class="pulse"></i>{{ site.disponibilidade }}</span>
+    </div>
+    <h1 class="hero-titulo" data-reveal>{{ d.titulo | titulo | safe }}</h1>
+    <div class="hero-base">
+      <p class="hero-sub" data-reveal>{{ d.subtitulo }}</p>
+      <div class="hero-acoes" data-reveal>
+        <a href="/contacto.html" class="btn">{{ d.botao_principal }} <span aria-hidden="true">→</span></a>
+        <a href="#trabalhos" class="btn btn-alt">{{ d.botao_secundario }}</a>
+      </div>
+      <div class="hero-reg" aria-hidden="true">
+        <div class="regmark"><span></span></div>
+        <div class="mono">REG. MARK<br>PANTONE 285 C</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="faixa" aria-hidden="true">
+  <div class="faixa-track">
+    {%- for r in range(0, 4) %}{% for f in d.faixa %}<span>{{ f }}</span><i class="faixa-sep"></i>{% endfor %}{% endfor %}
+  </div>
+</div>
+<div class="cmyk"><span class="c"></span><span class="m"></span><span class="y"></span><span class="k"></span></div>
+
+<section class="sec" id="trabalhos">
+  <div class="wrap">
+    <div class="sec-head sec-head-row">
+      <div>
+        <div class="kicker mono"><span class="rule"></span>{{ d.trabalhos_etiqueta }}</div>
+        <h2 class="sec-titulo">{{ d.trabalhos_titulo | titulo | safe }}</h2>
+      </div>
+      <a href="/portfolio.html" class="link-seta mono">Ver portfolio completo →</a>
+    </div>
+    <div class="obras obras-destaque">
+      {%- for p in collections.destaques %}{% set i = loop.index0 %}
+        {% include "cartao-trabalho.njk" %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-papel">
+  <div class="wrap estudio">
+    <figure class="estudio-foto" data-reveal>
+      <i class="crop tl"></i><i class="crop tr"></i><i class="crop bl"></i><i class="crop br"></i>
+      <img src="{{ d.estudio_foto }}" alt="{{ sobre.foto_legenda }}" loading="lazy">
+    </figure>
+    <div class="estudio-txt">
+      <div class="kicker mono"><span class="rule"></span>{{ d.estudio_etiqueta }}</div>
+      <h2 class="sec-titulo" data-reveal>{{ d.estudio_titulo | titulo | safe }}</h2>
+      <p class="lede" data-reveal>{{ d.estudio_texto }}</p>
+      <a href="/sobre.html" class="link-seta mono">{{ d.estudio_link }} →</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head sec-head-row">
+      <div>
+        <div class="kicker mono"><span class="rule"></span>{{ d.servicos_etiqueta }}</div>
+        <h2 class="sec-titulo">{{ d.servicos_titulo | titulo | safe }}</h2>
+      </div>
+      <a href="/servicos.html" class="link-seta mono">Ver serviços em detalhe →</a>
+    </div>
+    <div class="servs">
+      {%- for s in servicos.lista %}
+      <a href="/servicos.html#servico-{{ loop.index }}" class="serv" data-reveal>
+        <span class="serv-num mono">{{ loop.index | pad }}</span>
+        <h3>{{ s.nome }}</h3>
+        <p>{{ s.resumo }}</p>
+        <span class="serv-seta" aria-hidden="true">→</span>
+      </a>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-tinta">
+  <div class="wrap">
+    <div class="sec-head sec-head-row">
+      <div>
+        <div class="kicker mono kicker-inv"><span class="rule"></span>{{ d.processo_etiqueta }}</div>
+        <h2 class="sec-titulo">{{ d.processo_titulo | titulo | safe }}</h2>
+      </div>
+      <a href="/processo.html" class="link-seta mono">Como trabalho →</a>
+    </div>
+    <ol class="passos-linha">
+      {%- for p in processo.passos %}
+      <li data-reveal><span class="mono">{{ loop.index | pad }}</span><h3>{{ p.nome }}</h3><p>{{ p.texto }}</p></li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
+
+{% include "avaliacoes.njk" %}
+{% include "cta.njk" %}

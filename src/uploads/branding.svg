@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900">
+  <!-- Generator: Adobe Illustrator 30.7.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 114)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #9a8570;
+        font-size: 10px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22 {
+        isolation: isolate;
+      }
+
+      .st0, .st3, .st5, .st8, .st12, .st20 {
+        font-family: CourierNewPSMT, 'Courier New';
+      }
+
+      .st0, .st20 {
+        letter-spacing: .2em;
+      }
+
+      .st23 {
+        fill: url(#linear-gradient2);
+      }
+
+      .st24 {
+        stroke-width: 6px;
+      }
+
+      .st24, .st25, .st26, .st27, .st28, .st29, .st30, .st31, .st32, .st33 {
+        fill: none;
+      }
+
+      .st24, .st26, .st33 {
+        stroke-linecap: round;
+      }
+
+      .st24, .st27 {
+        stroke-miterlimit: 4;
+      }
+
+      .st24, .st33 {
+        stroke: #b04a16;
+      }
+
+      .st34, .st6 {
+        fill: #f3ead6;
+      }
+
+      .st25 {
+        stroke: #e0d3b8;
+        stroke-width: 1px;
+      }
+
+      .st25, .st33 {
+        stroke-miterlimit: 4;
+      }
+
+      .st35 {
+        fill: #19110c;
+      }
+
+      .st1 {
+        font-size: 22px;
+        letter-spacing: .64em;
+      }
+
+      .st1, .st2, .st4, .st6, .st7, .st9, .st10, .st11, .st13, .st14, .st15, .st16, .st18, .st19, .st21, .st22 {
+        font-family: Georgia, Georgia;
+      }
+
+      .st1, .st5, .st36, .st16 {
+        fill: #b04a16;
+      }
+
+      .st37, .st2 {
+        fill: #ffd9af;
+      }
+
+      .st38 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st2 {
+        font-size: 8.99px;
+        letter-spacing: .36em;
+      }
+
+      .st26 {
+        stroke: #fff3e0;
+        stroke-width: 7px;
+      }
+
+      .st3 {
+        fill: #7a6553;
+      }
+
+      .st3, .st19 {
+        font-size: 11px;
+      }
+
+      .st27 {
+        stroke-width: 2px;
+      }
+
+      .st27, .st28 {
+        stroke: #e0611f;
+      }
+
+      .st39 {
+        fill: url(#radial-gradient);
+      }
+
+      .st4 {
+        letter-spacing: .31em;
+      }
+
+      .st4, .st9, .st17 {
+        font-size: 13px;
+      }
+
+      .st4, .st18 {
+        fill: #5e4c3e;
+      }
+
+      .st5, .st7, .st8, .st15, .st16, .st18, .st22 {
+        font-size: 14px;
+      }
+
+      .st6 {
+        font-size: 26px;
+        letter-spacing: .12em;
+      }
+
+      .st7 {
+        fill: #b8a38c;
+      }
+
+      .st8, .st20, .st21 {
+        fill: #2a1d16;
+      }
+
+      .st28 {
+        stroke-width: 2px;
+      }
+
+      .st28, .st32 {
+        stroke-miterlimit: 4;
+      }
+
+      .st9, .st14, .st19 {
+        fill: #8a705a;
+      }
+
+      .st10 {
+        fill: #ffc79a;
+        font-size: 8.6px;
+        letter-spacing: .36em;
+      }
+
+      .st11 {
+        font-size: 19px;
+        letter-spacing: .26em;
+      }
+
+      .st11, .st40 {
+        fill: #fff3e0;
+      }
+
+      .st12 {
+        font-size: 12px;
+      }
+
+      .st12, .st13 {
+        fill: #3e3126;
+      }
+
+      .st41 {
+        fill: #e0611f;
+      }
+
+      .st13 {
+        font-size: 16px;
+      }
+
+      .st14 {
+        letter-spacing: .6em;
+      }
+
+      .st14, .st20 {
+        font-size: 15px;
+      }
+
+      .st15 {
+        fill: #8a7563;
+      }
+
+      .st16 {
+        letter-spacing: .5em;
+      }
+
+      .st42 {
+        fill: url(#linear-gradient3);
+      }
+
+      .st17 {
+        fill: #a8906f;
+        font-family: Georgia-Italic, Georgia;
+        font-style: italic;
+      }
+
+      .st29 {
+        stroke: #ffe7c9;
+        stroke-opacity: .65;
+        stroke-width: 1.5px;
+      }
+
+      .st18, .st22 {
+        letter-spacing: .43em;
+      }
+
+      .st30 {
+        stroke: #ffd9af;
+      }
+
+      .st19 {
+        letter-spacing: .27em;
+      }
+
+      .st43 {
+        fill: url(#linear-gradient);
+      }
+
+      .st21 {
+        font-size: 44px;
+        letter-spacing: .23em;
+      }
+
+      .st31 {
+        stroke: #d8c7ab;
+        stroke-dasharray: 3 3;
+        stroke-miterlimit: 4;
+        stroke-width: 1px;
+      }
+
+      .st44 {
+        fill: #fbf6ea;
+      }
+
+      .st22 {
+        fill: #9a7f66;
+      }
+
+      .st32 {
+        stroke: #5a4436;
+        stroke-width: 1px;
+      }
+
+      .st33 {
+        stroke-width: 7px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-358.7" y1="990.9" x2="-357.7" y2="989.9" gradientTransform="translate(430441 891811) scale(1200 -900)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2b1e16"/>
+      <stop offset="1" stop-color="#100b08"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="-358.42" cy="990.8" fx="-358.42" fy="990.8" r=".95" gradientTransform="translate(430441 891811) scale(1200 -900)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e0611f" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#e0611f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient1" x1="-358.25" y1="990.96" x2="-357.75" y2="989.96" gradientTransform="translate(171500.4312 733502.0067) rotate(.0508) scale(480 -740)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffdf5"/>
+      <stop offset="1" stop-color="#ede2cb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient2" x1="-358.45" y1="984.6" x2="-357.45" y2="983.6" gradientTransform="translate(172136.4382 16018.2726) rotate(.0508) scale(480 -16)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e0611f"/>
+      <stop offset="1" stop-color="#a2330c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient3" x1="-357.87" y1="990.58" x2="-356.87" y2="989.58" gradientTransform="translate(80795 222033) scale(224 -224)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e0611f"/>
+      <stop offset="1" stop-color="#a2330c"/>
+    </linearGradient>
+  </defs>
+  <rect class="st43" width="1200" height="900"/>
+  <rect class="st39" width="1200" height="900"/>
+  <text class="st22" transform="translate(70 72)"><tspan x="0" y="0">BRANDING · MARQUES STUDIO 2026</tspan></text>
+  <text class="st18" transform="translate(891.17 72)"><tspan x="0" y="0">SAL &amp; BRASA · 2026</tspan></text>
+  <g>
+    <rect class="st38" x="93.44" y="112.44" width="480" height="740"/>
+    <rect class="st23" x="93.77" y="112.44" width="480" height="16"/>
+    <text class="st14" transform="translate(160.85 176.06)"><tspan x="0" y="0">TABERNA · DESDE 1974</tspan></text>
+    <g>
+      <path class="st33" d="M283.45,254.63c.02-20.99,17.05-37.98,38.03-37.97s37.98,17.05,37.97,38.03"/>
+      <path class="st41" d="M301.46,240.65c4.01-14-5.98-20.01-1.97-32,11.99,8.01,15.98,22.01,7.97,32.01"/>
+      <path class="st36" d="M321.47,234.67c5.02-18-6.98-26.01-1.96-40,14.99,10.01,19.98,28.02,9.96,40.01"/>
+      <path class="st41" d="M341.46,240.68c4.01-14-5.98-20.01-1.97-32,11.99,8.01,15.98,22.01,7.97,32.01"/>
+    </g>
+    <text class="st21" transform="translate(278.23 298.39)"><tspan x="0" y="0">SAL</tspan></text>
+    <text class="st1" transform="translate(238.27 330.36)"><tspan x="0" y="0">&amp; BRASA</tspan></text>
+    <text class="st16" transform="translate(125.53 386.26)"><tspan x="0" y="0">PARA COMEÇAR</tspan></text>
+    <line class="st25" x1="125.52" y1="396.26" x2="541.52" y2="396.63"/>
+    <g>
+      <text class="st13" transform="translate(125.5 422.26)"><tspan x="0" y="0">Amêijoas à bulhão pato</tspan></text>
+      <text class="st13" transform="translate(503.1 422.59)"><tspan x="0" y="0">12,50</tspan></text>
+      <text class="st13" transform="translate(125.47 452.26)"><tspan x="0" y="0">Peixinhos da horta</tspan></text>
+      <text class="st13" transform="translate(507.98 452.6)"><tspan x="0" y="0">8,00</tspan></text>
+      <text class="st13" transform="translate(125.44 482.26)"><tspan x="0" y="0">Queijo da serra curado</tspan></text>
+      <text class="st13" transform="translate(502.16 482.59)"><tspan x="0" y="0">10,50</tspan></text>
+      <text class="st13" transform="translate(125.42 512.26)"><tspan x="0" y="0">Presunto de bolota</tspan></text>
+      <text class="st13" transform="translate(501.55 512.59)"><tspan x="0" y="0">14,00</tspan></text>
+    </g>
+    <text class="st16" transform="translate(125.37 562.26)"><tspan x="0" y="0">DA BRASA</tspan></text>
+    <line class="st25" x1="125.36" y1="574.26" x2="541.36" y2="574.63"/>
+    <g>
+      <text class="st13" transform="translate(125.34 604.26)"><tspan x="0" y="0">Costela de porco preto, grão de bico</tspan></text>
+      <text class="st13" transform="translate(501.57 604.59)"><tspan x="0" y="0">21,00</tspan></text>
+      <text class="st13" transform="translate(125.31 634.26)"><tspan x="0" y="0">Polvo com batata doce assada</tspan></text>
+      <text class="st13" transform="translate(500.96 634.59)"><tspan x="0" y="0">23,50</tspan></text>
+      <text class="st13" transform="translate(125.28 664.26)"><tspan x="0" y="0">Robalo inteiro (por kg)</tspan></text>
+      <text class="st13" transform="translate(498.75 664.59)"><tspan x="0" y="0">48,00</tspan></text>
+      <text class="st13" transform="translate(125.26 694.26)"><tspan x="0" y="0">Alheira de caça, grelos e ovo</tspan></text>
+      <text class="st13" transform="translate(501.37 694.59)"><tspan x="0" y="0">16,00</tspan></text>
+      <text class="st13" transform="translate(125.23 724.26)"><tspan x="0" y="0">Arroz de tomate com carabineiro</tspan></text>
+      <text class="st13" transform="translate(499.28 724.59)"><tspan x="0" y="0">26,00</tspan></text>
+    </g>
+    <line class="st25" x1="125.2" y1="754.26" x2="541.2" y2="754.63"/>
+    <g>
+      <text class="st9" transform="translate(125.18 782.26)"><tspan x="0" y="0">Avenida da Liberdade, 1234-567</tspan></text>
+      <text class="st9" transform="translate(125.16 804.26)"><tspan x="0" y="0">Ter–Dom · 12h30–15h · 19h–23h30</tspan></text>
+      <text class="st9" transform="translate(438.71 782.53)"><tspan x="0" y="0">+351 987 654 321</tspan></text>
+      <text class="st9" transform="translate(472.24 804.56)"><tspan x="0" y="0">salebrasa.pt</tspan></text>
+    </g>
+    <text class="st17" transform="translate(200.87 834.32)"><tspan x="0" y="0">Serviço de pão e manteiga 2,50 · IVA incluído</tspan></text>
+  </g>
+  <g>
+    <circle class="st42" cx="745.22" cy="254.7" r="112"/>
+    <circle class="st29" cx="745.22" cy="254.7" r="94"/>
+    <g>
+      <path class="st26" d="M707.22,244.7c0-20.99,17.01-38,38-38s38,17.01,38,38"/>
+      <path class="st37" d="M725.22,230.7c4-14-6-20-2-32,12,8,16,22,8,32"/>
+      <path class="st40" d="M745.22,224.7c5-18-7-26-2-40,15,10,20,28,10,40"/>
+      <path class="st37" d="M765.22,230.7c4-14-6-20-2-32,12,8,16,22,8,32"/>
+    </g>
+    <text class="st11" transform="translate(658 272.7)"><tspan x="0" y="0">SAL &amp; BRASA</tspan></text>
+    <line class="st30" x1="695.22" y1="282.7" x2="795.22" y2="282.7"/>
+    <text class="st2" transform="translate(671.03 296.31)"><tspan x="0" y="0">TABERNA DE LISBOA</tspan></text>
+    <text class="st10" transform="translate(675.52 310.09)"><tspan x="0" y="0">FOGO · SAL · VINHO</tspan></text>
+  </g>
+  <g>
+    <circle class="st34" cx="996.67" cy="254.7" r="80"/>
+    <circle class="st27" cx="996.67" cy="254.7" r="64"/>
+    <path class="st24" d="M968.74,250.21c.27-15.46,13.02-27.78,28.48-27.51s27.78,13.02,27.51,28.48"/>
+    <path class="st41" d="M997.02,234.7c4.24-13.93-4.65-20.08-.44-32.01,11.84,9.21,14.6,23.26,6.44,32.12"/>
+    <text class="st19" transform="translate(958.52 278.04) rotate(1)"><tspan x="0" y="0">EST. 1974</tspan></text>
+  </g>
+  <g>
+    <rect class="st35" x="784.35" y="333.8" width="196" height="340" transform="translate(375.0107 1384.1131) rotate(-89.7699)"/>
+    <rect class="st32" x="784.35" y="333.8" width="196" height="340" transform="translate(375.0107 1384.1131) rotate(-89.7699)"/>
+    <text class="st6" transform="translate(744.53 457.24) rotate(.23)"><tspan x="0" y="0">SAL &amp; BRASA</tspan></text>
+    <line class="st28" x1="744.46" y1="475.24" x2="1020.46" y2="476.35"/>
+    <g>
+      <text class="st7" transform="translate(744.33 507.24) rotate(.23)"><tspan x="0" y="0">Gonçalo Marques</tspan></text>
+      <text class="st7" transform="translate(744.24 531.24) rotate(.23)"><tspan x="0" y="0">Chef e proprietário</tspan></text>
+      <text class="st15" transform="translate(744.1 565.24) rotate(.23)"><tspan x="0" y="0">+351 987 654 321</tspan></text>
+      <text class="st15" transform="translate(744.01 587.24) rotate(.23)"><tspan x="0" y="0">goncalo@salebrasa.pt</tspan></text>
+      <text class="st15" transform="translate(884.87 567.22) rotate(.23)"><tspan x="0" y="0">Avenida da Liberdade</tspan></text>
+      <text class="st15" transform="translate(978.97 588.19) rotate(.23)"><tspan x="0" y="0">Lisboa</tspan></text>
+    </g>
+  </g>
+  <g>
+    <rect class="st44" x="752.46" y="634.92" width="260" height="230" transform="translate(1.94 -2.27)"/>
+    <text class="st20" transform="translate(816.68 668.78)"><tspan x="0" y="0">SAL &amp; BRASA</tspan></text>
+    <text class="st3" transform="translate(793.53 688.72)"><tspan x="0" y="0">MESA 12 · 2 PESSOAS · 13:30</tspan></text>
+    <line class="st31" x1="774.59" y1="700.65" x2="990.58" y2="701.2"/>
+    <g>
+      <text class="st12" transform="translate(774.55 724.67)"><tspan x="0" y="0">2 AMÊIJOAS</tspan></text>
+      <text class="st12" transform="translate(954.54 725.14)"><tspan x="0" y="0">25,00</tspan></text>
+      <text class="st12" transform="translate(774.49 746.67)"><tspan x="0" y="0">1 POLVO</tspan></text>
+      <text class="st12" transform="translate(954.48 747.14)"><tspan x="0" y="0">23,50</tspan></text>
+      <text class="st12" transform="translate(774.43 768.67)"><tspan x="0" y="0">1 VINHO CASA</tspan></text>
+      <text class="st12" transform="translate(954.43 769.14)"><tspan x="0" y="0">18,00</tspan></text>
+      <text class="st12" transform="translate(774.38 790.67)"><tspan x="0" y="0">2 CAFÉ</tspan></text>
+      <text class="st12" transform="translate(961.57 791.16)"><tspan x="0" y="0">3,00</tspan></text>
+    </g>
+    <line class="st31" x1="774.32" y1="802.65" x2="990.32" y2="803.2"/>
+    <text class="st8" transform="translate(774.28 828.67)"><tspan x="0" y="0">TOTAL</tspan></text>
+    <text class="st5" transform="translate(914.67 829.04)"><tspan x="0" y="0">69,50 EUR</tspan></text>
+    <text class="st0" transform="translate(790.21 850.71)"><tspan x="0" y="0">OBRIGADO · VOLTE SEMPRE</tspan></text>
+  </g>
+  <text class="st4" transform="translate(703.98 93.97)"><tspan x="0" y="0">CARTA A4 · CARTÃO 85×55 · BASES · TALÃO</tspan></text>
+</svg>

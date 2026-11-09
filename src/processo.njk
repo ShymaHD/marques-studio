@@ -1,0 +1,24 @@
+---
+layout: base.njk
+permalink: /processo.html
+pagina: processo
+eleventyComputed:
+  seo_titulo: "{{ processo.seo_titulo }}"
+  seo_descricao: "{{ processo.seo_descricao }}"
+---
+{%- set d = processo %}{% set num = "04" %}
+{% include "cabecalho.njk" %}
+<section class="sec sec-sem-topo">
+  <div class="wrap">
+    <ol class="passos">
+      {%- for p in d.passos %}
+      <li class="passo" data-reveal>
+        <span class="passo-num">{{ loop.index | pad }}</span>
+        <h2>{{ p.nome }}</h2>
+        <p>{{ p.texto }}</p>
+      </li>
+      {%- endfor %}
+    </ol>
+  </div>
+</section>
+{% include "cta.njk" %}

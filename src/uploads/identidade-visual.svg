@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900">
+  <!-- Generator: Adobe Illustrator 30.7.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 114)  -->
+  <defs>
+    <style>
+      .st0 {
+        letter-spacing: .19em;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18 {
+        isolation: isolate;
+      }
+
+      .st0, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st11, .st13, .st14, .st15, .st16 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st0, .st2, .st4, .st5, .st9, .st13, .st15 {
+        font-size: 10.5px;
+      }
+
+      .st0, .st4, .st6, .st14 {
+        fill: #6e6a5e;
+      }
+
+      .st1 {
+        font-size: 58px;
+      }
+
+      .st1, .st19, .st10, .st18 {
+        fill: #161816;
+      }
+
+      .st1, .st10, .st12, .st17, .st18 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st2 {
+        letter-spacing: .24em;
+      }
+
+      .st2, .st9 {
+        fill: #b5b1a4;
+      }
+
+      .st20 {
+        opacity: .18;
+      }
+
+      .st21 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st22 {
+        fill: #2c2e2b;
+      }
+
+      .st3 {
+        letter-spacing: .2em;
+      }
+
+      .st3, .st5, .st7, .st8, .st13, .st16 {
+        fill: #8b8578;
+      }
+
+      .st3, .st8 {
+        font-size: 10px;
+      }
+
+      .st4 {
+        letter-spacing: .19em;
+      }
+
+      .st5 {
+        letter-spacing: .28em;
+      }
+
+      .st23 {
+        opacity: .2;
+      }
+
+      .st24, .st25, .st26, .st27, .st28, .st29, .st30, .st31 {
+        fill: none;
+      }
+
+      .st24, .st28, .st31, .st32 {
+        stroke: #161816;
+      }
+
+      .st24, .st29 {
+        stroke-width: 4px;
+      }
+
+      .st6 {
+        font-size: 38px;
+      }
+
+      .st33 {
+        fill: #fcfaf4;
+      }
+
+      .st33, .st26, .st34 {
+        stroke: #d8d2c4;
+      }
+
+      .st7 {
+        font-size: 9px;
+      }
+
+      .st8 {
+        letter-spacing: .3em;
+      }
+
+      .st9, .st15 {
+        letter-spacing: .24em;
+      }
+
+      .st25 {
+        stroke-miterlimit: 4;
+        stroke-width: 6px;
+      }
+
+      .st25, .st27, .st29 {
+        stroke: #f2efe8;
+      }
+
+      .st10 {
+        font-size: 40px;
+      }
+
+      .st27 {
+        stroke-width: 9px;
+      }
+
+      .st27, .st30 {
+        stroke-miterlimit: 4;
+      }
+
+      .st35 {
+        fill: #efefef;
+      }
+
+      .st28, .st32 {
+        stroke-width: 11px;
+      }
+
+      .st11 {
+        fill: #4c4009;
+        font-size: 11px;
+        letter-spacing: .45em;
+      }
+
+      .st12 {
+        font-size: 30px;
+      }
+
+      .st12, .st34, .st17, .st36 {
+        fill: #f2efe8;
+      }
+
+      .st13 {
+        letter-spacing: .29em;
+      }
+
+      .st30 {
+        stroke: #e8b62c;
+        stroke-width: 2px;
+      }
+
+      .st14 {
+        font-size: 9.45px;
+        letter-spacing: .72em;
+      }
+
+      .st15, .st37 {
+        fill: #e8b62c;
+      }
+
+      .st16 {
+        font-size: 12px;
+        letter-spacing: .58em;
+      }
+
+      .st31 {
+        stroke-miterlimit: 4;
+        stroke-width: 8px;
+      }
+
+      .st38 {
+        fill: #7e8a6a;
+      }
+
+      .st39 {
+        fill: url(#linear-gradient);
+      }
+
+      .st17 {
+        font-size: 52px;
+      }
+
+      .st18 {
+        font-size: 86px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-358.2" y1="990.9" x2="-358.2" y2="989.9" gradientTransform="translate(430441 891811) scale(1200 -900)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2efe8"/>
+      <stop offset="1" stop-color="#e4dfd3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient1" x1="-358.01" y1="990.86" x2="-357.01" y2="989.86" gradientTransform="translate(-336098.0181 107693.9508) rotate(90) scale(300 -340)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2c2e2b"/>
+      <stop offset="1" stop-color="#161816"/>
+    </linearGradient>
+  </defs>
+  <rect class="st39" width="1200" height="900"/>
+  <text class="st16" transform="translate(70 66)"><tspan x="0" y="0">IDENTIDADE VISUAL · MARQUES STUDIO 2026</tspan></text>
+  <text class="st16" transform="translate(987.4 66)"><tspan x="0" y="0">LUPA · 2026</tspan></text>
+  <g>
+    <circle class="st28" cx="112" cy="149.33" r="40"/>
+    <path class="st32" d="M152,149.33h0"/>
+    <rect class="st19" x="156.33" y="143.33" width="10" height="12"/>
+    <text class="st18" transform="translate(256 175.33)"><tspan x="0" y="0">LUPA</tspan></text>
+    <text class="st14" transform="translate(262.62 191.79)"><tspan x="0" y="0">ÓTICA INDEPENDENTE</tspan></text>
+    <circle class="st37" cx="204.67" cy="149.33" r="40"/>
+  </g>
+  <g>
+    <g class="st23">
+      <rect x="463.83" y="308.99" width="340" height="300" rx="10" ry="10" transform="translate(175.6393 1093.4045) rotate(-90.0729)"/>
+    </g>
+    <rect class="st21" x="454.8" y="291.01" width="340" height="300" rx="10" ry="10" transform="translate(184.5934 1066.3702) rotate(-90.0729)"/>
+    <circle class="st27" cx="586.7" cy="363.05" r="34"/>
+    <circle class="st37" cx="662.7" cy="362.96" r="34"/>
+    <rect class="st36" x="618.7" y="358.01" width="12" height="10" transform="translate(262.49 988.17) rotate(-90.07)"/>
+    <text class="st17" transform="translate(555.96 441.1)"><tspan x="0" y="0">LUPA</tspan></text>
+    <line class="st30" x1="534.83" y1="465.12" x2="714.83" y2="464.89"/>
+    <g>
+      <text class="st2" transform="translate(510.98 491.16)"><tspan x="0" y="0">EXAMES · LENTES · ARMAÇÕES</tspan></text>
+      <text class="st9" transform="translate(545.23 513.15)"><tspan x="0" y="0">RUA DIREITA · LISBOA</tspan></text>
+      <text class="st2" transform="translate(558.03 535.1)"><tspan x="0" y="0">SEG–SÁB 10H–19H</tspan></text>
+      <text class="st15" transform="translate(524.32 567.14)"><tspan x="0" y="0">LUPA.PT · +351 987 654 321</tspan></text>
+    </g>
+  </g>
+  <g>
+    <g class="st20">
+      <rect x="83.41" y="300" width="290" height="300" transform="translate(-221.24 679.09) rotate(-90.09)"/>
+    </g>
+    <rect class="st37" x="74.38" y="282.01" width="290" height="300" transform="translate(-212.3 652.05) rotate(-90.09)"/>
+    <circle class="st31" cx="149.31" cy="385.12" r="28"/>
+    <circle class="st19" cx="213.31" cy="385.02" r="28"/>
+    <rect class="st19" x="176.97" y="379.7" width="11" height="9" transform="translate(-201.45 567.25) rotate(-90.09)"/>
+    <text class="st1" transform="translate(99.45 473.2)"><tspan x="0" y="0">LUPA</tspan></text>
+    <text class="st11" transform="translate(99.5 501.2)"><tspan x="0" y="0">ÓTICA INDEPENDENTE</tspan></text>
+  </g>
+  <g>
+    <g class="st20">
+      <rect x="291.18" y="670.48" width="270" height="200" rx="6" ry="6"/>
+    </g>
+    <rect class="st22" x="282.16" y="652.49" width="270" height="200" rx="6" ry="6"/>
+    <circle class="st25" cx="390.15" cy="734.51" r="20"/>
+    <text class="st12" transform="translate(377.48 798.52)"><tspan x="0" y="0">LUPA</tspan></text>
+    <rect class="st36" x="411.16" y="729.51" width="12" height="10" transform="translate(-316.8127 1152.6045) rotate(-90.0729)"/>
+    <circle class="st37" cx="439.71" cy="734.48" r="20"/>
+  </g>
+  <g>
+    <rect class="st19" x="880" y="270" width="80" height="80" rx="14" ry="14"/>
+    <circle class="st29" cx="906" cy="310" r="12"/>
+    <rect class="st37" x="974" y="270" width="80" height="80" rx="14" ry="14"/>
+    <circle class="st24" cx="1000" cy="310" r="12"/>
+    <circle class="st19" cx="1030" cy="310" r="12"/>
+    <rect class="st33" x="1064.61" y="270" width="80" height="80" rx="14" ry="14"/>
+    <circle class="st24" cx="1091.61" cy="310" r="10"/>
+    <circle class="st19" cx="1117.61" cy="310" r="10"/>
+    <text class="st8" transform="translate(880 374)"><tspan x="0" y="0">ÍCONE · 3 VERSÕES</tspan></text>
+    <rect class="st35" x="917.56" y="306.94" width="10" height="6.11"/>
+    <circle class="st37" cx="936" cy="310" r="12"/>
+    <rect class="st19" x="1012" y="306.72" width="10" height="6.33"/>
+    <rect class="st19" x="1100.89" y="306.83" width="10" height="6.33"/>
+  </g>
+  <g>
+    <rect class="st19" x="880" y="404" width="56" height="56" rx="6" ry="6"/>
+    <rect class="st37" x="944" y="404" width="56" height="56" rx="6" ry="6"/>
+    <rect class="st38" x="1008" y="404" width="56" height="56" rx="6" ry="6"/>
+    <rect class="st34" x="1072" y="404" width="56" height="56" rx="6" ry="6"/>
+    <g>
+      <text class="st7" transform="translate(880 476)"><tspan x="0" y="0">161816</tspan></text>
+      <text class="st7" transform="translate(944 476)"><tspan x="0" y="0">E8B62C</tspan></text>
+      <text class="st7" transform="translate(1008 476)"><tspan x="0" y="0">7E8A6A</tspan></text>
+      <text class="st7" transform="translate(1072 476)"><tspan x="0" y="0">F2EFE8</tspan></text>
+    </g>
+    <text class="st10" transform="translate(880 536)"><tspan x="0" y="0">Aa</tspan></text>
+    <text class="st6" transform="translate(948 536)"><tspan x="0" y="0">Aa</tspan></text>
+    <g>
+      <text class="st3" transform="translate(880 560)"><tspan x="0" y="0">BOLD · TÍTULOS</tspan></text>
+      <text class="st3" transform="translate(1010 560)"><tspan x="0" y="0">REGULAR · TEXTO</tspan></text>
+    </g>
+    <line class="st26" x1="880" y1="582" x2="1130" y2="582"/>
+    <g>
+      <text class="st4" transform="translate(880 604)"><tspan x="0" y="0">SÍMBOLO · DUAS LENTES E PONTE</tspan></text>
+      <text class="st0" transform="translate(880 624)"><tspan x="0" y="0">RAIO DA LENTE = ALTURA DA MAIÚSCULA</tspan></text>
+    </g>
+  </g>
+  <text class="st5" transform="translate(759.17 112)"><tspan x="0" y="0">LOGOTÍPO · LETREIRO · SACO · PANO · ÍCONES</tspan></text>
+  <text class="st5" transform="translate(592.98 644.27)"><tspan x="0" y="0">LETREIRO</tspan></text>
+  <text class="st13" transform="translate(403.15 886.56)"><tspan x="0" y="0">PANO</tspan></text>
+  <text class="st5" transform="translate(239.66 222.96)"><tspan x="0" y="0">LOGOTÍPO</tspan></text>
+  <text class="st13" transform="translate(209.29 613.98)"><tspan x="0" y="0">SACO</tspan></text>
+</svg>

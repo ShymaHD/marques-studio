@@ -1,0 +1,30 @@
+---
+layout: base.njk
+pagina: portfolio
+---
+<section class="cab cab-projeto">
+  <i class="crop tl"></i><i class="crop tr"></i>
+  <div class="wrap">
+    <a href="/portfolio.html" class="link-seta mono">← Portfolio</a>
+    <h1 class="cab-titulo" data-reveal>{{ titulo }}</h1>
+    <dl class="ficha mono">
+      <div><dt>Categoria</dt><dd>{{ categoria }}</dd></div>
+      {% if setor %}<div><dt>Setor</dt><dd>{{ setor }}</dd></div>{% endif %}
+      {% if ano %}<div><dt>Ano</dt><dd>{{ ano }}</dd></div>{% endif %}
+    </dl>
+  </div>
+</section>
+<section class="sec sec-sem-topo">
+  <div class="wrap">
+    <figure class="projeto-capa"><img src="{{ capa }}" alt="{{ titulo }} — {{ categoria }}"></figure>
+    {% if descricao %}<div class="prosa prosa-lg projeto-txt">{{ descricao | md | safe }}</div>{% endif %}
+    {% if galeria.length %}
+    <div class="galeria">
+      {%- for g in galeria %}
+      <figure data-reveal><img src="{{ g.imagem }}" alt="{{ g.legenda or titulo }}" loading="lazy">{% if g.legenda %}<figcaption class="mono">{{ g.legenda }}</figcaption>{% endif %}</figure>
+      {%- endfor %}
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% include "cta.njk" %}

@@ -1,0 +1,13 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for u in ["/", "/sobre.html", "/servicos.html", "/portfolio.html", "/processo.html", "/contacto.html"] %}
+  <url><loc>{{ site.url }}{{ u }}</loc></url>
+{%- endfor %}
+{%- for p in collections.trabalhos %}{% if p.data.temPagina %}
+  <url><loc>{{ site.url }}{{ p.url }}</loc></url>
+{%- endif %}{% endfor %}
+</urlset>

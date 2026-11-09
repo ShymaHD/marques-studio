@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 900">
+  <!-- Generator: Adobe Illustrator 30.7.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 114)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17, .st18, .st19, .st20, .st21, .st22, .st23, .st24, .st25, .st26, .st27 {
+        isolation: isolate;
+      }
+
+      .st0, .st3, .st4, .st5, .st28, .st29, .st7, .st10, .st11, .st14, .st15, .st18, .st19, .st26 {
+        fill: #0c0c0c;
+      }
+
+      .st0, .st3, .st4, .st5, .st7, .st9, .st11, .st12, .st13, .st14, .st15, .st18, .st19, .st21, .st23, .st26, .st27 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .st0, .st27 {
+        font-size: 24px;
+      }
+
+      .st1 {
+        letter-spacing: .14em;
+      }
+
+      .st1, .st2, .st6, .st8, .st10, .st16, .st17, .st20, .st22, .st24, .st25 {
+        font-family: CourierNewPSMT, 'Courier New';
+      }
+
+      .st1, .st5, .st29, .st10, .st20, .st25 {
+        font-size: 14px;
+      }
+
+      .st1, .st9, .st13, .st30, .st23 {
+        fill: #f2f0e9;
+      }
+
+      .st3 {
+        font-size: 29px;
+      }
+
+      .st4 {
+        font-size: 32px;
+      }
+
+      .st31 {
+        stroke-width: 8px;
+      }
+
+      .st31, .st32, .st33, .st34, .st35 {
+        stroke: #0c0c0c;
+      }
+
+      .st31, .st33, .st36, .st35 {
+        stroke-miterlimit: 4;
+      }
+
+      .st6 {
+        fill: #c8c8c2;
+        font-size: 11px;
+      }
+
+      .st7 {
+        font-size: 28px;
+      }
+
+      .st32 {
+        stroke-miterlimit: 4;
+        stroke-width: 4px;
+      }
+
+      .st32, .st37, .st38, .st33, .st36, .st34, .st35 {
+        fill: none;
+      }
+
+      .st8, .st17, .st22, .st24, .st39 {
+        fill: #3a3a38;
+      }
+
+      .st8, .st39 {
+        font-size: 16px;
+        letter-spacing: .12em;
+      }
+
+      .st9, .st26 {
+        font-size: 116px;
+      }
+
+      .st11, .st12 {
+        font-size: 66px;
+      }
+
+      .st12, .st40, .st21, .st27 {
+        fill: #ff2d16;
+      }
+
+      .st13 {
+        font-size: 31.18px;
+      }
+
+      .st14 {
+        font-size: 34px;
+      }
+
+      .st37 {
+        stroke-miterlimit: 4;
+        stroke-width: 2px;
+      }
+
+      .st37, .st36 {
+        stroke: #ff2d16;
+      }
+
+      .st15 {
+        font-size: 19px;
+      }
+
+      .st16, .st24 {
+        font-size: 9px;
+        letter-spacing: .22em;
+      }
+
+      .st16, .st25 {
+        fill: #2a0a05;
+      }
+
+      .st38 {
+        stroke: #fff;
+      }
+
+      .st17 {
+        font-size: 12px;
+      }
+
+      .st18, .st21, .st23 {
+        font-size: 26px;
+      }
+
+      .st19 {
+        font-size: 86px;
+      }
+
+      .st20 {
+        fill: #a8a8a2;
+        letter-spacing: .29em;
+      }
+
+      .st22 {
+        font-size: 13px;
+      }
+
+      .st33 {
+        stroke-width: 2px;
+      }
+
+      .st36 {
+        stroke-width: 6px;
+      }
+
+      .st34 {
+        stroke-miterlimit: 4;
+        stroke-width: 6px;
+      }
+
+      .st41 {
+        fill: url(#linear-gradient);
+      }
+
+      .st42 {
+        opacity: .08;
+      }
+
+      .st35 {
+        stroke-width: 9px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-358.2" y1="990.9" x2="-358.2" y2="989.9" gradientTransform="translate(430441 891811) scale(1200 -900)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#42423e"/>
+      <stop offset="1" stop-color="#1f1f1d"/>
+    </linearGradient>
+  </defs>
+  <rect class="st41" width="1200" height="900"/>
+  <g class="st42">
+    <line class="st38" y1="220" x2="1200" y2="220"/>
+    <line class="st38" y1="520" x2="1200" y2="520"/>
+    <line class="st38" y1="760" x2="1200" y2="760"/>
+    <line class="st38" x1="300" x2="300" y2="900"/>
+    <line class="st38" x1="640" x2="640" y2="900"/>
+    <line class="st38" x1="960" x2="960" y2="900"/>
+  </g>
+  <text class="st20" transform="translate(70 62)"><tspan x="0" y="0">PRINT &amp; EMBALAGEM · MARQUES STUDIO 2026</tspan></text>
+  <text class="st20" transform="translate(782.76 62)"><tspan x="0" y="0">VOZES DA MARGEM · 4ª EDIÇÃO</tspan></text>
+  <g>
+    <rect class="st30" x="-83.48" y="257.4" width="700" height="420" transform="translate(-200.63 734.36) rotate(-90.05)"/>
+    <rect class="st35" x="-83.48" y="257.4" width="700" height="420" transform="translate(-200.63 734.36) rotate(-90.05)"/>
+    <rect class="st28" x="86.29" y="149.5" width="146" height="146" transform="translate(-63.06 382) rotate(-90.05)"/>
+    <text class="st9" transform="translate(117.45 259.55)"><tspan x="0" y="0">V</tspan></text>
+    <rect class="st40" x="244.29" y="149.36" width="146" height="146" transform="translate(95.24 539.86) rotate(-90.05)"/>
+    <text class="st26" transform="translate(269.02 259.4)"><tspan x="0" y="0">M</tspan></text>
+    <path class="st31" d="M86.38,313.57l304-.28"/>
+    <path class="st36" d="M86.4,331.57c38.01,11.96,65.99-12.06,104-.1,38.01,11.96,63.99-12.06,100-.09"/>
+    <text class="st3" transform="translate(86.45 387.57)"><tspan x="0" y="0">VOZES DA MARGEM</tspan></text>
+    <text class="st8" transform="translate(86.49 425.57)"><tspan x="0" y="0">12–28 SET 2026 · C. DA CAPARICA</tspan></text>
+    <line class="st33" x1="86.5" y1="445.57" x2="446.5" y2="445.23"/>
+    <g>
+      <text class="st10" transform="translate(86.53 475.57)"><tspan x="0" y="0">12 SET</tspan></text>
+      <text class="st10" transform="translate(166.53 475.5)"><tspan x="0" y="0">MIZZY MILES</tspan></text>
+      <text class="st10" transform="translate(86.56 499.57)"><tspan x="0" y="0">14 SET</tspan></text>
+      <text class="st10" transform="translate(166.56 499.5)"><tspan x="0" y="0">PLUTONIO</tspan></text>
+      <text class="st10" transform="translate(86.58 523.57)"><tspan x="0" y="0">16 SET</tspan></text>
+      <text class="st10" transform="translate(166.58 523.5)"><tspan x="0" y="0">DJ PABLO</tspan></text>
+      <text class="st10" transform="translate(86.6 547.57)"><tspan x="0" y="0">18 SET</tspan></text>
+      <text class="st10" transform="translate(166.6 547.5)"><tspan x="0" y="0">DJ BRAGA</tspan></text>
+      <text class="st10" transform="translate(86.62 571.57)"><tspan x="0" y="0">20 SET</tspan></text>
+      <text class="st10" transform="translate(166.62 571.5)"><tspan x="0" y="0">DILLAZ</tspan></text>
+      <text class="st10" transform="translate(86.65 595.57)"><tspan x="0" y="0">22 SET</tspan></text>
+      <text class="st10" transform="translate(166.65 595.5)"><tspan x="0" y="0">PIRUKA MC</tspan></text>
+      <text class="st10" transform="translate(86.67 619.57)"><tspan x="0" y="0">24 SET</tspan></text>
+      <text class="st10" transform="translate(166.67 619.5)"><tspan x="0" y="0">BARBARA BANDEIRA</tspan></text>
+      <text class="st10" transform="translate(86.69 643.57)"><tspan x="0" y="0">26 SET</tspan></text>
+      <text class="st10" transform="translate(166.69 643.5)"><tspan x="0" y="0">DIOGO PIÇARRA</tspan></text>
+      <text class="st10" transform="translate(86.71 667.57)"><tspan x="0" y="0">28 SET</tspan></text>
+      <text class="st2" transform="translate(166.71 667.5)"><tspan class="st29" x="0" y="0">DAVID CARREIRA </tspan><tspan class="st39" x="126.02" y="0">·</tspan><tspan class="st29" x="137.62" y="0" xml:space="preserve"> ENCERRAMENTO</tspan></text>
+    </g>
+    <line class="st33" x1="86.73" y1="687.57" x2="446.73" y2="687.23"/>
+    <rect class="st28" x="86.79" y="707.53" width="86" height="86" transform="translate(-620.62 881.02) rotate(-90.05)"/>
+    <rect class="st30" x="106.78" y="727.54" width="20" height="20" transform="translate(-620.66 855.01) rotate(-90.05)"/>
+    <rect class="st30" x="138.77" y="727.52" width="14" height="14" transform="translate(-588.61 880.97) rotate(-90.05)"/>
+    <rect class="st30" x="106.8" y="761.55" width="14" height="14" transform="translate(-654.63 883.07) rotate(-90.05)"/>
+    <rect class="st30" x="134.8" y="755.51" width="24" height="24" transform="translate(-620.57 915.03) rotate(-90.05)"/>
+    <g>
+      <text class="st22" transform="translate(192.77 733.48)"><tspan x="0" y="0">vozesdamargem.pt</tspan></text>
+      <text class="st22" transform="translate(192.8 755.48)"><tspan x="0" y="0">PARQUE URBANO COSTA DA CAPARICA</tspan></text>
+      <text class="st22" transform="translate(192.82 777.48)"><tspan x="0" y="0">APOIO: C.M. ALMADA</tspan></text>
+    </g>
+  </g>
+  <g>
+    <rect class="st40" x="496.03" y="113.19" width="400" height="600" transform="translate(-.63 1.06)"/>
+    <rect class="st28" x="525.68" y="143.39" width="86" height="86" transform="translate(-.28 .86)"/>
+    <text class="st12" transform="translate(544.9 209.43)"><tspan x="0" y="0">V</tspan></text>
+    <rect class="st30" x="621.68" y="143.24" width="86" height="86" transform="translate(-.28 1.01)"/>
+    <text class="st11" transform="translate(637.24 209.29)"><tspan x="0" y="0">M</tspan></text>
+    <text class="st19" transform="translate(735.73 209.14)"><tspan x="0" y="0">26</tspan></text>
+    <text class="st13" transform="translate(525.83 262.84)"><tspan x="0" y="0">ARTISTAS · 4ª EDIÇÃO</tspan></text>
+    <line class="st34" x1="525.86" y1="299.45" x2="865.85" y2="298.93"/>
+    <g>
+      <text class="st14" transform="translate(525.94 348.96)"><tspan x="0" y="0">4 PALCOS</tspan></text>
+      <text class="st14" transform="translate(526.01 394.96)"><tspan x="0" y="0">17 DIAS</tspan></text>
+      <text class="st14" transform="translate(526.08 440.96)"><tspan x="0" y="0">1 PARQUE</tspan></text>
+    </g>
+    <g>
+      <text class="st25" transform="translate(526.14 479.46)"><tspan x="0" y="0">PERFORMANCE · INSTALAÇÃO · SOM</tspan></text>
+      <text class="st25" transform="translate(526.17 501.46)"><tspan x="0" y="0">CINEMA EXPANDIDO · RESIDÊNCIAS</tspan></text>
+    </g>
+    <rect class="st28" x="526.3" y="523.19" width="340" height="132" transform="translate(-.89 1.06)"/>
+    <text class="st27" transform="translate(599.37 568.02)"><tspan x="0" y="0">ENTRADA LIVRE</tspan></text>
+    <text class="st1" transform="translate(571.49 598.06)"><tspan x="0" y="0">EXCETO NOITE ABERTA · 8€</tspan></text>
+    <text class="st1" transform="translate(607.94 626)"><tspan x="0" y="0">VOZESDAMARGEM.PT</tspan></text>
+  </g>
+  <g>
+    <rect class="st28" x="887.51" y="153.24" width="330" height="250" transform="translate(771.297 1329.9614) rotate(-89.8382)"/>
+    <rect class="st30" x="951.85" y="137.02" width="42" height="42" transform="translate(812.0863 1130.4151) rotate(-89.8382)"/>
+    <text class="st4" transform="translate(961.29 170.02)"><tspan x="0" y="0">V</tspan></text>
+    <rect class="st40" x="999.85" y="137.15" width="42" height="42" transform="translate(859.815 1178.5499) rotate(-89.8382)"/>
+    <text class="st4" transform="translate(1007.5165 170.1487)"><tspan x="0" y="0">M</tspan></text>
+    <text class="st23" transform="translate(1051.8442 170.274)"><tspan x="0" y="0">PROG.</tspan></text>
+    <line class="st37" x1="951.68" y1="218.96" x2="1153.68" y2="219.53"/>
+    <g>
+      <text class="st6" transform="translate(951.63 244.99)"><tspan x="0" y="0">PALCO MARGEM</tspan></text>
+      <text class="st6" transform="translate(951.58 264.99)"><tspan x="0" y="0">PALCO VOZ</tspan></text>
+      <text class="st6" transform="translate(951.52 284.99)"><tspan x="0" y="0">PALCO CAPARICA</tspan></text>
+      <text class="st6" transform="translate(951.46 304.99)"><tspan x="0" y="0">PALCO MAR</tspan></text>
+      <text class="st6" transform="translate(951.38 332.99)"><tspan x="0" y="0">SEX 18H–01H</tspan></text>
+      <text class="st6" transform="translate(951.33 352.99)"><tspan x="0" y="0">SÁB 14H–01H</tspan></text>
+      <text class="st6" transform="translate(951.27 372.99)"><tspan x="0" y="0">DOM 14H–22H</tspan></text>
+    </g>
+    <rect class="st40" x="996.15" y="346.12" width="30" height="120" transform="translate(602.1693 1416.1226) rotate(-89.8382)"/>
+    <text class="st5" transform="translate(984.68 412.04)"><tspan x="0" y="0">17 DIAS</tspan></text>
+  </g>
+  <g>
+    <rect class="st30" x="840.97" y="737.03" width="310" height="140" transform="translate(-2.46 3.04)"/>
+    <rect class="st40" x="840.97" y="737.41" width="58" height="140" transform="translate(-2.46 2.66)"/>
+    <text class="st15" transform="translate(870.15 868.05) rotate(-90.17)"><tspan x="0" y="0">BILHETE</tspan></text>
+    <text class="st0" transform="translate(918.9 773.3)"><tspan x="0" y="0">NOITE ABERTA</tspan></text>
+    <g>
+      <text class="st17" transform="translate(918.97 797.3)"><tspan x="0" y="0">26 SET 2026 · 22H00 · PALCO VOZ</tspan></text>
+      <text class="st17" transform="translate(919.03 817.3)"><tspan x="0" y="0">LUGAR NÃO MARCADO · M/16</tspan></text>
+      <text class="st17" transform="translate(919.09 837.3)"><tspan x="0" y="0">Nº 004821 · 8,00 EUR</tspan></text>
+    </g>
+    <g>
+      <rect class="st28" x="919.12" y="849.26" width="3" height="18" transform="translate(-2.61 2.81)"/>
+      <rect class="st28" x="927.12" y="849.22" width="7" height="18" transform="translate(-2.61 2.84)"/>
+      <rect class="st28" x="939.12" y="849.19" width="3" height="18" transform="translate(-2.61 2.87)"/>
+      <rect class="st28" x="947.12" y="849.16" width="9" height="18" transform="translate(-2.61 2.91)"/>
+      <rect class="st28" x="961.12" y="849.13" width="3" height="18" transform="translate(-2.61 2.94)"/>
+      <rect class="st28" x="969.12" y="849.1" width="6" height="18" transform="translate(-2.61 2.97)"/>
+      <rect class="st28" x="981.12" y="849.07" width="3" height="18" transform="translate(-2.61 3)"/>
+      <rect class="st28" x="989.12" y="849.03" width="8" height="18" transform="translate(-2.61 3.03)"/>
+    </g>
+  </g>
+  <g>
+    <circle class="st40" cx="706.02" cy="815.9" r="66"/>
+    <rect class="st28" x="664.33" y="787.92" width="34" height="34" transform="translate(-185.11 203.77) rotate(-15)"/>
+    <text class="st21" transform="translate(674.85 817.01) rotate(-15)"><tspan x="0" y="0">V</tspan></text>
+    <rect class="st30" x="702.97" y="777.56" width="34" height="34" transform="translate(-181.12 213.42) rotate(-15)"/>
+    <text class="st18" transform="translate(712.1 807.03) rotate(-15)"><tspan x="0" y="0">M</tspan></text>
+    <path class="st32" d="M672.42,837.33c15.59,4.1,24.98-14.97,40.57-10.87s23.04-14.46,30.91-8.28"/>
+    <text class="st16" transform="translate(683.16 859.29) rotate(-15)"><tspan x="0" y="0">4ª EDIÇÃO</tspan></text>
+  </g>
+  <g>
+    <circle class="st30" cx="562.6" cy="795.5" r="48"/>
+    <text class="st7" transform="translate(547.22 793.06) rotate(9)"><tspan x="0" y="0">26</tspan></text>
+    <text class="st24" transform="translate(530.23 810.62) rotate(9)"><tspan x="0" y="0">ARTISTAS</tspan></text>
+  </g>
+</svg>

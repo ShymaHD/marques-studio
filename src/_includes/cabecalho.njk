@@ -1,0 +1,9 @@
+{# Cabeçalho das páginas internas. Espera: d (dados da página), num #}
+<section class="cab">
+  <i class="crop tl"></i><i class="crop tr"></i>
+  <div class="wrap">
+    <div class="cab-meta mono"><span class="cab-num">{{ num }}</span><span class="rule"></span><span>{{ d.etiqueta }}</span></div>
+    <h1 class="cab-titulo" data-reveal>{{ d.titulo | titulo | safe }}</h1>
+    {% if d.subtitulo %}<p class="cab-sub" data-reveal>{{ d.subtitulo }}</p>{% endif %}
+  </div>
+</section>
