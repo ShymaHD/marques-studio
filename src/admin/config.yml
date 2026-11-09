@@ -6,7 +6,7 @@
 backend:
   name: github
   # ⚠️ ÚNICA LINHA A ALTERAR: o teu utilizador GitHub / nome do repositório
-  repo: O-TEU-UTILIZADOR/marques-studio
+  repo: ShymaHD/marques-studio
   branch: main
   commit_messages:
     create: "Criar {{collection}} “{{slug}}”"
